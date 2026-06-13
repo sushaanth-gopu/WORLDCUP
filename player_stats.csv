@@ -1,0 +1,1105 @@
+name,team,position,rating,is_starter,matches_played,minutes_played,goals,assists,yellow_cards,red_cards,fatigue,suspended
+Unai Simón,Spain,GK,84.0,True,60000,5400000,55215,42924,0,0,100.0,False
+David Raya,Spain,GK,83.0,False,60000,5399384,55027,43055,0,0,100.0,False
+Walter Benítez,Argentina,GK,78.0,False,60000,5385729,53388,41402,0,0,100.0,False
+Emiliano Martínez,Argentina,GK,88.0,True,60000,5400000,52776,41815,0,0,100.0,False
+Jordan Pickford,England,GK,84.0,True,60000,5400000,52062,40686,0,0,100.0,False
+Aaron Ramsdale,England,GK,80.0,False,60000,5389365,51736,40674,0,0,100.0,False
+Alphonse Areola,France,GK,79.0,False,60000,5393953,50573,39276,0,0,100.0,False
+Mike Maignan,France,GK,86.0,True,60000,5400000,50196,39621,0,0,100.0,False
+Alisson,Brazil,GK,90.0,True,60000,5400000,49768,38773,0,0,100.0,False
+Bento,Brazil,GK,80.0,False,60000,5391218,49670,39014,0,0,100.0,False
+Marc-André ter Stegen,Germany,GK,85.0,False,60000,5399385,48902,38026,0,0,100.0,False
+Manuel Neuer,Germany,GK,85.0,True,60000,5400000,48720,38231,0,0,100.0,False
+Switzerland GK1,Switzerland,GK,78.1,True,60000,5400000,48472,37654,0,0,100.0,False
+Switzerland sub1,Switzerland,GK,57.1,False,60000,5398232,48024,37927,0,0,100.0,False
+Colombia GK1,Colombia,GK,78.7,True,60000,5400000,47503,36880,0,0,100.0,False
+Bart Verbruggen,Netherlands,GK,82.0,True,60000,5400000,47499,36956,0,0,100.0,False
+Colombia sub1,Colombia,GK,59.6,False,60000,5385290,47340,36987,0,0,100.0,False
+Mark Flekken,Netherlands,GK,79.0,False,60000,5393384,47278,37043,0,0,100.0,False
+Japan sub1,Japan,GK,58.9,False,60000,5397889,47235,36782,0,0,100.0,False
+Japan GK1,Japan,GK,74.1,True,60000,5400000,47147,36852,0,0,100.0,False
+Belgium GK1,Belgium,GK,80.7,True,60000,5400000,46981,36586,0,0,100.0,False
+José Sá,Portugal,GK,80.0,False,60000,5390994,46756,36318,0,0,100.0,False
+Diogo Costa,Portugal,GK,85.0,True,60000,5400000,46713,36473,0,0,100.0,False
+Belgium sub1,Belgium,GK,61.0,False,60000,5397155,46709,36750,0,0,100.0,False
+Ecuador sub1,Ecuador,GK,46.6,False,60000,5393229,46359,35823,0,0,100.0,False
+Morocco sub1,Morocco,GK,55.5,False,60000,5390280,46116,35886,0,0,100.0,False
+Ecuador GK1,Ecuador,GK,76.9,True,60000,5400000,45955,36224,0,0,100.0,False
+Morocco GK1,Morocco,GK,76.1,True,60000,5400000,45806,36105,0,0,100.0,False
+Uruguay sub1,Uruguay,GK,57.7,False,60000,5385537,43827,34073,0,0,100.0,False
+Croatia GK1,Croatia,GK,80.4,True,60000,5400000,43746,34041,0,0,100.0,False
+Croatia sub1,Croatia,GK,55.6,False,60000,5394468,43552,34156,0,0,100.0,False
+Uruguay GK1,Uruguay,GK,79.9,True,60000,5400000,43490,34169,0,0,100.0,False
+Iran GK1,Iran,GK,69.8,True,60000,5400000,42956,33345,0,0,100.0,False
+Iran sub1,Iran,GK,45,False,60000,5398904,42593,33742,0,0,100.0,False
+Norway sub1,Norway,GK,53.4,False,60000,5394189,41351,32019,0,0,100.0,False
+Norway GK1,Norway,GK,79.6,True,60000,5400000,41227,32242,0,0,100.0,False
+Turkey sub1,Turkey,GK,50.9,False,60000,5392976,40073,30781,0,0,100.0,False
+Turkey GK1,Turkey,GK,71.2,True,60000,5400000,39501,31346,0,0,100.0,False
+Senegal GK1,Senegal,GK,74.2,True,60000,5400000,38938,30262,0,0,100.0,False
+Australia GK1,Australia,GK,74.6,True,60000,5400000,38825,30323,0,0,100.0,False
+Australia sub1,Australia,GK,45.1,False,60000,5394245,38783,30513,0,0,100.0,False
+Senegal sub1,Senegal,GK,53.0,False,60000,5391925,38550,30339,0,0,100.0,False
+Austria sub1,Austria,GK,53.5,False,60000,5394978,38073,29365,0,0,100.0,False
+Algeria GK1,Algeria,GK,70.8,True,60000,5400000,37741,29467,0,0,100.0,False
+Algeria sub1,Algeria,GK,45.4,False,60000,5390656,37740,29498,0,0,100.0,False
+Austria GK1,Austria,GK,76.6,True,60000,5400000,37693,29699,0,0,100.0,False
+Ivory Coast sub1,Ivory Coast,GK,47.4,False,60000,5395301,37657,28977,0,0,100.0,False
+Ivory Coast GK1,Ivory Coast,GK,72.6,True,60000,5400000,37218,29541,0,0,100.0,False
+Egypt GK1,Egypt,GK,67.4,True,60000,5400000,36975,28768,0,0,100.0,False
+Egypt sub1,Egypt,GK,45,False,60000,5395089,36584,28947,0,0,100.0,False
+Scotland sub1,Scotland,GK,45.0,False,60000,5389276,35813,27597,0,0,100.0,False
+Scotland GK1,Scotland,GK,70.3,True,60000,5400000,35415,27903,0,0,100.0,False
+Panama GK1,Panama,GK,65.6,True,60000,5400000,34811,27028,0,0,100.0,False
+Panama sub1,Panama,GK,45,False,60000,5398825,34667,27129,0,0,100.0,False
+Uzbekistan sub1,Uzbekistan,GK,45,False,60000,5399312,33250,25832,0,0,100.0,False
+Uzbekistan GK1,Uzbekistan,GK,62.6,True,60000,5400000,33170,25984,0,0,100.0,False
+Tunisia GK1,Tunisia,GK,70.5,True,60000,5400000,32150,24750,0,0,100.0,False
+Tunisia sub1,Tunisia,GK,45,False,60000,5398788,31815,25184,0,0,100.0,False
+Sweden GK1,Sweden,GK,73.7,True,60000,5400000,31728,24827,0,0,100.0,False
+Sweden sub1,Sweden,GK,52.7,False,60000,5398019,31698,24964,0,0,100.0,False
+Mexico sub1,Mexico,GK,51.6,False,40000,3596222,31694,24464,0,0,100.0,False
+Mexico GK1,Mexico,GK,73.6,True,40000,3600000,31455,24959,0,0,100.0,False
+New Zealand GK1,New Zealand,GK,63.8,True,60000,5400000,31448,24526,0,0,100.0,False
+New Zealand sub1,New Zealand,GK,45,False,60000,5398918,31225,24479,0,0,100.0,False
+Canada sub1,Canada,GK,55.3,False,40000,3590380,31155,24059,0,0,100.0,False
+Saudi Arabia sub1,Saudi Arabia,GK,45,False,60000,5399234,30830,23732,0,0,100.0,False
+DR Congo GK1,DR Congo,GK,70.1,True,60000,5400000,30805,23842,0,0,100.0,False
+Canada GK1,Canada,GK,77.5,True,40000,3600000,30620,24505,0,0,100.0,False
+DR Congo sub1,DR Congo,GK,45,False,60000,5399694,30416,24058,0,0,100.0,False
+Saudi Arabia GK1,Saudi Arabia,GK,65.0,True,60000,5400000,30352,24205,0,0,100.0,False
+United States sub1,United States,GK,60.6,False,40000,3599131,30144,23485,0,0,100.0,False
+United States GK1,United States,GK,73.5,True,40000,3600000,30057,23604,0,0,100.0,False
+Jordan GK1,Jordan,GK,62.5,True,60000,5400000,29109,22947,0,0,100.0,False
+South Korea GK1,South Korea,GK,79.8,True,40000,3600000,29085,22671,0,0,100.0,False
+Jordan sub1,Jordan,GK,45,False,60000,5399175,29063,22984,0,0,100.0,False
+South Korea sub1,South Korea,GK,55.4,False,40000,3595524,28884,22552,0,0,100.0,False
+Cape Verde GK1,Cape Verde,GK,64.7,True,60000,5400000,28698,22298,0,0,100.0,False
+Cape Verde sub1,Cape Verde,GK,45,False,60000,5399526,28572,22183,0,0,100.0,False
+Ghana GK1,Ghana,GK,69.1,True,60000,5400000,28296,22100,0,0,100.0,False
+Ghana sub1,Ghana,GK,47.2,False,60000,5397929,28138,22078,0,0,100.0,False
+Qatar GK1,Qatar,GK,62.8,True,60000,5400000,28125,22105,0,0,100.0,False
+Qatar sub1,Qatar,GK,45,False,60000,5398925,28120,21945,0,0,100.0,False
+Iraq GK1,Iraq,GK,57.8,True,60000,5400000,27608,21428,0,0,100.0,False
+Iraq sub1,Iraq,GK,45,False,60000,5399153,27480,21365,0,0,100.0,False
+Haiti GK1,Haiti,GK,58.6,True,60000,5400000,27432,21256,0,0,100.0,False
+Haiti sub1,Haiti,GK,45,False,60000,5398928,27195,21487,0,0,100.0,False
+Curacao sub1,Curacao,GK,45,False,60000,5398219,26230,20495,0,0,100.0,False
+Curacao GK1,Curacao,GK,65.4,True,60000,5400000,26152,20427,0,0,100.0,False
+Czechia GK1,Czechia,GK,72.8,True,40000,3600000,24327,18880,0,0,100.0,False
+Czechia sub1,Czechia,GK,47.4,False,40000,3592457,24059,19073,0,0,100.0,False
+Bosnia and Herzegovina sub1,Bosnia and Herzegovina,GK,45,False,40000,3598681,23926,18814,0,0,100.0,False
+Bosnia and Herzegovina GK1,Bosnia and Herzegovina,GK,73.3,True,40000,3600000,23850,18836,0,0,100.0,False
+Paraguay GK1,Paraguay,GK,74.5,True,40000,3600000,23095,17897,0,0,100.0,False
+Paraguay sub1,Paraguay,GK,46.8,False,40000,3598688,22915,18035,0,0,100.0,False
+South Africa sub1,South Africa,GK,45,False,40000,3599919,19828,15371,0,0,100.0,False
+South Africa GK1,South Africa,GK,63.8,True,40000,3600000,19617,15493,0,0,100.0,False
+Kylian Mbappé,France,FW,95.0,True,881,78471,1017,207,81,1,100.0,True
+Jordan FW11,Jordan,FW,58.6,True,1106,98503,844,100,93,1,100.0,True
+Switzerland FW11,Switzerland,FW,74.5,True,845,73183,713,143,68,1,100.0,True
+Mikel Merino,Spain,CM,81.0,False,731,58253,680,255,65,1,100.0,True
+Uruguay sub12,Uruguay,FW,58.1,False,926,70525,656,183,86,1,100.0,True
+Japan sub9,Japan,WM,57.2,False,890,72965,633,268,78,1,100.0,True
+Sweden sub7,Sweden,CAM,47.8,False,940,72101,621,84,73,1,100.0,True
+Bosnia and Herzegovina sub8,Bosnia and Herzegovina,WM,45,False,808,66682,618,95,76,1,100.0,True
+Saudi Arabia sub11,Saudi Arabia,FW,45,False,949,74939,613,127,85,1,100.0,True
+Uzbekistan sub11,Uzbekistan,FW,45,False,736,57042,593,65,58,1,100.0,True
+Canada sub5,Canada,CM,54.5,False,841,63554,584,165,65,1,100.0,True
+Iran sub4,Iran,FB,45.5,False,900,79134,532,192,88,1,100.0,True
+Rúben Dias,Portugal,CB,88.0,True,1057,93391,529,354,85,1,100.0,True
+Senegal sub6,Senegal,CM,52.3,False,867,67270,517,198,82,1,100.0,True
+Morocco FB4,Morocco,FB,77.7,True,947,83374,510,275,86,1,100.0,True
+Croatia sub8,Croatia,WM,56.9,False,723,62735,481,180,78,1,100.0,True
+Belgium FW11,Belgium,FW,78.8,True,578,50515,468,109,50,1,100.0,True
+Bukayo Saka,England,WM,88.0,True,544,47616,467,137,53,1,100.0,True
+Gabriel Jesus,Brazil,FW,80.0,False,597,44027,397,128,42,1,100.0,True
+United States CB3,United States,CB,77.6,True,828,73286,395,197,80,1,100.0,True
+Turkey sub12,Turkey,FW,52.7,False,704,56615,388,134,52,1,100.0,True
+Ghana WM10,Ghana,WM,69.5,True,754,67209,386,105,67,1,100.0,True
+Mexico WM9,Mexico,WM,76.3,True,527,46605,385,155,52,1,100.0,True
+Toni Kroos,Germany,CM,87.0,True,637,56006,381,177,50,1,100.0,True
+Algeria sub5,Algeria,CM,47.9,False,713,58686,374,142,60,1,100.0,True
+Ecuador sub10,Ecuador,FW,46.8,False,516,41534,373,118,44,1,100.0,True
+Ángel Di María,Argentina,WM,80.0,False,615,47208,367,156,47,1,100.0,True
+Turkey CM6,Turkey,CM,76.8,True,892,78117,351,254,87,1,100.0,True
+South Africa CM6,South Africa,CM,61.0,True,989,87773,350,188,68,1,100.0,True
+Colombia sub7,Colombia,CAM,58.3,False,615,39796,341,180,53,1,100.0,True
+Japan sub2,Japan,CB,57.6,False,1066,88887,335,429,82,1,100.0,True
+Austria CB2,Austria,CB,75.9,True,813,71990,302,190,71,1,100.0,True
+New Zealand CB2,New Zealand,CB,60.7,True,892,79146,281,190,79,1,100.0,True
+Egypt sub9,Egypt,WM,45,False,702,51822,279,209,59,1,100.0,True
+Nuno Mendes,Portugal,FB,84.0,True,722,63655,269,232,62,1,100.0,True
+Panama sub4,Panama,FB,45,False,628,49341,269,141,41,1,100.0,True
+Haiti sub11,Haiti,FW,45,False,613,47787,269,69,56,1,100.0,True
+Rodri,Spain,CM,92.0,True,493,43095,252,252,37,1,100.0,True
+Australia CM6,Australia,CM,70.3,True,507,44922,246,120,53,1,100.0,True
+Tunisia WM9,Tunisia,WM,70.5,True,574,50445,240,77,50,1,100.0,True
+Morocco sub8,Morocco,WM,58.6,False,561,48142,230,128,53,1,100.0,True
+South Korea FB4,South Korea,FB,75.9,True,601,53072,229,123,55,1,100.0,True
+Czechia sub4,Czechia,FB,45,False,686,49950,222,153,57,1,100.0,True
+South Africa WM10,South Africa,WM,66.4,True,775,68323,221,159,78,1,100.0,True
+Austria WM9,Austria,WM,74.1,True,516,45505,218,111,45,1,100.0,True
+Matheus Cunha,Brazil,FW,81.0,False,492,36994,214,142,33,1,100.0,True
+Curacao FW11,Curacao,FW,58.5,True,597,52621,212,99,49,1,100.0,True
+Gonçalo Ramos,Portugal,FW,83.0,False,412,35423,206,90,35,1,100.0,True
+Qatar CAM8,Qatar,CAM,61.3,True,794,69633,201,123,89,1,100.0,True
+New Zealand sub7,New Zealand,CAM,45,False,545,44267,199,104,51,1,100.0,True
+Senegal sub9,Senegal,WM,55.5,False,575,48790,198,136,68,1,100.0,True
+Antoine Griezmann,France,CAM,88.0,True,529,46879,195,313,42,1,100.0,True
+Stefan de Vrij,Netherlands,CB,82.0,True,688,60525,192,92,66,1,100.0,True
+Qatar sub10,Qatar,FW,45,False,674,51802,192,90,44,1,100.0,True
+Uruguay FW11,Uruguay,FW,78.0,True,511,44393,189,120,52,1,100.0,True
+Iran FW11,Iran,FW,66.5,True,413,35658,189,88,51,1,100.0,True
+Leon Goretzka,Germany,CM,82.0,False,518,42465,187,190,55,1,100.0,True
+United States sub9,United States,WM,59.6,False,479,38280,184,158,40,1,100.0,True
+Canada sub10,Canada,FW,54.8,False,437,28536,184,92,38,1,100.0,True
+Norway sub2,Norway,CB,55.3,False,594,49993,183,134,54,1,100.0,True
+DR Congo sub5,DR Congo,CM,45,False,446,35672,182,79,41,1,100.0,True
+Croatia sub5,Croatia,CM,56.7,False,507,43129,180,141,43,1,100.0,True
+Scotland sub2,Scotland,CB,47.8,False,531,42023,177,87,45,1,100.0,True
+Australia FW11,Australia,FW,70.3,True,343,30205,177,69,36,1,100.0,True
+Egypt sub10,Egypt,FW,46.8,False,428,36376,173,81,40,1,100.0,True
+United States WM9,United States,WM,75.9,True,462,40231,170,157,44,1,100.0,True
+Xavi Simons,Netherlands,CAM,85.0,True,552,48081,170,149,33,1,100.0,True
+Egypt CM7,Egypt,CM,72.9,True,582,50866,168,152,51,1,100.0,True
+Colombia sub6,Colombia,CM,58.4,False,487,29658,160,148,47,1,100.0,True
+Japan sub5,Japan,CM,55.5,False,579,43376,159,185,61,1,100.0,True
+Japan sub11,Japan,FW,59.9,False,300,24913,158,60,27,1,100.0,True
+Mexico sub9,Mexico,WM,52.9,False,384,32100,157,155,36,1,100.0,True
+Iraq sub12,Iraq,FW,45,False,367,22657,157,46,29,1,100.0,True
+Leandro Paredes,Argentina,CM,78.0,False,526,33306,154,177,50,1,100.0,True
+Morocco CAM8,Morocco,CAM,78.5,True,468,40356,153,114,38,1,100.0,True
+Switzerland sub7,Switzerland,CAM,55.1,False,586,36757,150,161,44,1,100.0,True
+Czechia CAM8,Czechia,CAM,71.9,True,497,43310,148,122,40,1,100.0,True
+Czechia sub11,Czechia,FW,49.0,False,378,28681,146,63,30,1,100.0,True
+Canada sub9,Canada,WM,57.2,False,482,35946,142,130,47,1,100.0,True
+South Africa sub7,South Africa,CAM,45,False,616,48308,139,114,58,1,100.0,True
+Ryan Gravenberch,Netherlands,CM,84.0,True,531,46292,138,109,46,1,100.0,True
+Norway CAM8,Norway,CAM,79.6,True,414,36313,135,98,35,1,100.0,True
+Colombia CB3,Colombia,CB,81.4,True,677,59041,133,163,57,1,100.0,True
+South Korea sub7,South Korea,CAM,53.3,False,365,25455,133,92,28,1,100.0,True
+Japan CM7,Japan,CM,77.5,True,504,44541,131,127,36,1,100.0,True
+Cape Verde sub10,Cape Verde,FW,45,False,329,19025,131,33,24,1,100.0,True
+Kai Havertz,Germany,FW,84.0,True,319,27325,128,67,24,1,100.0,True
+Endrick,Brazil,FW,83.0,True,372,31749,127,79,33,1,100.0,True
+South Korea CM6,South Korea,CM,72.5,True,402,34418,125,105,30,1,100.0,True
+Turkey FW11,Turkey,FW,73.2,True,404,34540,124,59,39,1,100.0,True
+André Silva,Portugal,FW,78.0,False,323,16338,123,66,29,1,100.0,True
+Mexico sub10,Mexico,FW,54.4,False,247,21267,123,62,21,1,100.0,True
+Curacao sub9,Curacao,WM,45,False,610,49377,121,138,56,1,100.0,True
+Saudi Arabia sub6,Saudi Arabia,CM,45,False,643,50316,120,195,49,1,100.0,True
+Norway sub11,Norway,FW,54.8,False,336,26292,119,71,19,1,100.0,True
+Ecuador WM9,Ecuador,WM,73.5,True,453,39443,117,158,38,1,100.0,True
+Georginio Wijnaldum,Netherlands,CM,80.0,False,546,42619,112,131,46,1,100.0,True
+Ivory Coast FW11,Ivory Coast,FW,74.2,True,305,26160,111,51,24,1,100.0,True
+Norway sub12,Norway,FW,57.1,False,308,26247,110,53,19,1,100.0,True
+Qatar sub7,Qatar,CAM,45,False,706,54814,109,113,43,1,100.0,True
+Ghana sub8,Ghana,WM,45,False,434,34432,108,117,38,1,100.0,True
+Iran WM10,Iran,WM,66.5,True,433,37426,108,105,49,1,100.0,True
+Paraguay FB4,Paraguay,FB,72.5,True,411,35809,106,65,32,1,100.0,True
+Niclas Füllkrug,Germany,FW,82.0,False,316,23787,106,46,21,1,100.0,True
+Uruguay CM6,Uruguay,CM,77.5,True,600,52368,105,140,59,1,100.0,True
+Austria WM10,Austria,WM,77.9,True,403,34988,105,83,33,1,100.0,True
+Scotland sub11,Scotland,FW,45,False,304,16104,101,42,25,1,100.0,True
+Ivory Coast sub9,Ivory Coast,WM,46.7,False,364,26538,99,71,41,1,100.0,True
+Randal Kolo Muani,France,FW,82.0,False,255,19787,97,67,23,1,100.0,True
+Canada sub11,Canada,FW,52.9,False,308,12616,95,46,19,1,100.0,True
+Panama sub3,Panama,CB,45,False,500,39945,93,98,42,1,100.0,True
+Algeria sub6,Algeria,CM,45.4,False,418,26797,93,84,34,1,100.0,True
+Turkey sub5,Turkey,CM,47.4,False,523,30517,91,82,38,1,100.0,True
+Croatia sub6,Croatia,CM,57.4,False,386,32523,91,79,46,1,100.0,True
+South Korea sub4,South Korea,FB,51.4,False,477,33692,90,94,29,1,100.0,True
+Panama FW11,Panama,FW,61.8,True,242,20807,90,36,19,1,100.0,True
+Giovani Lo Celso,Argentina,CAM,80.0,False,324,24190,86,64,23,1,100.0,True
+United States CAM8,United States,CAM,77.4,True,300,25872,85,53,26,1,100.0,True
+Austria sub5,Austria,CM,53.9,False,404,33411,84,77,26,1,100.0,True
+Ecuador sub8,Ecuador,WM,46.1,False,372,24433,83,98,37,1,100.0,True
+New Zealand WM9,New Zealand,WM,59.7,True,382,33135,82,66,37,1,100.0,True
+Wout Weghorst,Netherlands,FW,78.0,False,277,11956,82,48,23,1,100.0,True
+Iran sub11,Iran,FW,45,False,303,17341,81,47,32,1,100.0,True
+Luke Shaw,England,FB,81.0,True,379,32753,80,156,26,1,100.0,True
+Ivan Toney,England,FW,79.0,False,243,8505,80,44,22,1,100.0,True
+Switzerland sub6,Switzerland,CM,54.2,False,508,28050,79,88,34,1,100.0,True
+Saudi Arabia FW11,Saudi Arabia,FW,70.5,True,340,29178,79,60,31,1,100.0,True
+Belgium sub10,Belgium,FW,60.2,False,259,19010,77,39,22,1,100.0,True
+Belgium sub11,Belgium,FW,58.9,False,258,13301,77,33,16,1,100.0,True
+Croatia CB2,Croatia,CB,76.3,True,602,53173,76,125,58,1,100.0,True
+Senegal sub7,Senegal,CAM,52.0,False,352,20811,75,60,28,1,100.0,True
+Morocco sub10,Morocco,FW,56.1,False,208,12193,75,42,11,1,100.0,True
+Czechia sub12,Czechia,FW,49.4,False,303,22712,75,34,23,1,100.0,True
+Egypt FW11,Egypt,FW,70.8,True,290,24688,74,39,28,1,100.0,True
+Haiti sub5,Haiti,CM,45,False,512,41465,72,132,41,1,100.0,True
+Canada FW11,Canada,FW,74.1,True,214,17240,71,27,20,1,100.0,True
+Uruguay sub4,Uruguay,FB,59.0,False,739,55307,70,200,64,1,100.0,True
+Belgium WM10,Belgium,WM,79.2,True,355,30338,70,114,39,1,100.0,True
+Senegal CAM8,Senegal,CAM,81.2,True,352,30324,70,53,26,1,100.0,True
+South Africa sub11,South Africa,FW,45,False,267,15426,70,35,20,1,100.0,True
+Algeria FB4,Algeria,FB,69.6,True,520,45244,69,100,38,1,100.0,True
+Otávio,Portugal,CM,78.0,False,387,25201,69,71,21,1,100.0,True
+Tunisia sub6,Tunisia,CM,45,False,447,32763,68,82,50,1,100.0,True
+New Zealand sub5,New Zealand,CM,45,False,390,30387,68,44,38,1,100.0,True
+Steven Bergwijn,Netherlands,WM,79.0,False,365,25364,67,64,25,1,100.0,True
+Algeria sub3,Algeria,CB,47.0,False,588,45884,66,73,71,1,100.0,True
+Algeria sub12,Algeria,FW,50.8,False,256,21731,66,35,24,1,100.0,True
+Ghana sub12,Ghana,FW,45,False,229,13527,66,22,19,1,100.0,True
+Tunisia CAM8,Tunisia,CAM,67.5,True,387,33782,64,47,29,1,100.0,True
+DR Congo CM7,DR Congo,CM,70.7,True,304,26302,64,45,33,1,100.0,True
+Memphis Depay,Netherlands,FW,82.0,True,188,15423,64,31,15,1,100.0,True
+Australia sub8,Australia,WM,48.2,False,264,22379,63,54,24,1,100.0,True
+Morocco sub9,Morocco,WM,54.5,False,285,15954,63,45,21,1,100.0,True
+Jordan CM6,Jordan,CM,57.3,True,423,36817,62,121,41,1,100.0,True
+Uruguay WM9,Uruguay,WM,82.5,True,368,31486,60,46,21,1,100.0,True
+South Korea sub2,South Korea,CB,54.4,False,484,37208,60,35,51,1,100.0,True
+United States sub11,United States,FW,56.6,False,176,9104,60,20,13,1,100.0,True
+Cristian Romero,Argentina,CB,86.0,True,542,46447,59,56,52,1,100.0,True
+Morocco sub6,Morocco,CM,55.4,False,371,24481,59,50,23,1,100.0,True
+Bosnia and Herzegovina sub12,Bosnia and Herzegovina,FW,45,False,203,11102,58,34,11,1,100.0,True
+South Korea FW11,South Korea,FW,73.9,True,175,14361,58,27,6,1,100.0,True
+DR Congo WM10,DR Congo,WM,65.3,True,287,24699,56,40,30,1,100.0,True
+Senegal FB5,Senegal,FB,81.6,True,509,44869,55,67,50,1,100.0,True
+Turkey WM9,Turkey,WM,72.0,True,351,29814,55,54,25,1,100.0,True
+Bosnia and Herzegovina CAM8,Bosnia and Herzegovina,CAM,72.8,True,288,24747,54,50,30,1,100.0,True
+Olivier Giroud,France,FW,78.0,False,147,5892,54,25,13,1,100.0,True
+Uruguay sub10,Uruguay,FW,62.2,False,195,14822,54,22,22,1,100.0,True
+Senegal sub11,Senegal,FW,53.9,False,207,12423,54,21,16,1,100.0,True
+Bruno Guimarães,Brazil,CM,87.0,True,363,31314,53,61,25,1,100.0,True
+Norway sub10,Norway,FW,55.8,False,164,11348,53,19,9,1,100.0,True
+Andreas Pereira,Brazil,CM,78.0,False,435,28882,52,97,34,1,100.0,True
+Ivory Coast sub12,Ivory Coast,FW,45.5,False,226,11508,52,31,23,1,100.0,True
+Qatar sub11,Qatar,FW,45,False,340,16233,51,22,30,1,100.0,True
+Colombia CAM8,Colombia,CAM,77.2,True,270,22555,50,38,19,1,100.0,True
+Pedri,Spain,CM,89.0,True,202,17112,50,32,21,1,100.0,True
+Ivory Coast sub11,Ivory Coast,FW,47.6,False,239,16841,50,32,16,1,100.0,True
+Thiago Almada,Argentina,CM,77.0,False,293,11135,50,31,18,1,100.0,True
+Austria CM6,Austria,CM,78.5,True,309,26509,49,57,26,1,100.0,True
+Ecuador WM10,Ecuador,WM,74.0,True,226,19049,49,42,23,1,100.0,True
+Switzerland sub9,Switzerland,WM,52.0,False,384,14273,49,41,23,1,100.0,True
+Jordan sub12,Jordan,FW,45,False,279,17273,49,40,26,1,100.0,True
+Tunisia sub11,Tunisia,FW,45.3,False,196,15886,49,23,17,1,100.0,True
+Colombia sub11,Colombia,FW,60.4,False,229,9435,49,21,19,1,100.0,True
+Qatar sub12,Qatar,FW,45,False,332,10771,49,18,32,1,100.0,True
+Scotland FB5,Scotland,FB,74.6,True,364,31485,48,65,41,1,100.0,True
+Matteo Guendouzi,France,CM,80.0,False,260,17810,48,51,21,1,100.0,True
+Switzerland sub8,Switzerland,WM,52.0,False,405,16623,48,40,17,1,100.0,True
+Canada sub6,Canada,CM,57.3,False,410,30478,46,73,35,1,100.0,True
+Colombia sub5,Colombia,CM,62.8,False,322,25815,46,53,30,1,100.0,True
+Switzerland WM9,Switzerland,WM,77.1,True,314,25378,46,33,31,1,100.0,True
+Colombia sub10,Colombia,FW,61.6,False,206,10924,46,25,9,1,100.0,True
+Switzerland sub10,Switzerland,FW,55.1,False,253,6772,46,22,19,1,100.0,True
+Iran FB4,Iran,FB,72.5,True,453,39513,45,55,36,1,100.0,True
+Bosnia and Herzegovina CM6,Bosnia and Herzegovina,CM,69.2,True,268,23334,45,40,23,1,100.0,True
+Croatia sub9,Croatia,WM,55.7,False,244,16906,45,39,23,1,100.0,True
+Paulo Dybala,Argentina,CAM,82.0,False,241,16977,45,34,20,1,100.0,True
+Norway CM6,Norway,CM,73.3,True,320,27659,44,60,33,1,100.0,True
+Algeria FW11,Algeria,FW,71.5,True,196,16282,44,32,19,1,100.0,True
+Belgium CB3,Belgium,CB,81.3,True,484,42348,43,124,39,1,100.0,True
+İlkay Gündoğan,Germany,CM,84.0,False,327,27334,43,64,45,1,100.0,True
+United States CM6,United States,CM,74.6,True,297,25709,43,52,27,1,100.0,True
+Paraguay sub4,Paraguay,FB,46.2,False,317,24532,43,49,30,1,100.0,True
+Haiti sub6,Haiti,CM,45,False,372,27881,43,48,33,1,100.0,True
+Fabián Ruiz,Spain,CM,84.0,True,193,15976,43,36,24,1,100.0,True
+Paraguay CM6,Paraguay,CM,71.4,True,262,22433,43,35,25,1,100.0,True
+Álvaro Morata,Spain,FW,82.0,True,120,9407,43,27,10,1,100.0,True
+Sweden CAM8,Sweden,CAM,72.6,True,303,26074,42,34,34,1,100.0,True
+Scotland sub10,Scotland,FW,46.6,False,206,9861,42,22,21,1,100.0,True
+Joselu,Spain,FW,77.0,False,131,3294,42,20,12,1,100.0,True
+Australia sub11,Australia,FW,45,False,144,6450,42,19,10,1,100.0,True
+Morocco sub3,Morocco,CB,53.9,False,555,33897,41,38,50,1,100.0,True
+Sweden sub9,Sweden,WM,51.0,False,303,20154,41,38,26,1,100.0,True
+Scotland CB3,Scotland,CB,72.7,True,386,33211,41,35,38,1,100.0,True
+João Palhinha,Portugal,CM,84.0,True,329,28343,40,53,27,1,100.0,True
+Iran CM7,Iran,CM,71.2,True,283,24032,40,30,29,1,100.0,True
+South Korea WM10,South Korea,WM,79.1,True,211,17803,40,26,18,1,100.0,True
+Japan sub10,Japan,FW,59.1,False,132,8838,40,22,12,1,100.0,True
+Sweden sub12,Sweden,FW,52.3,False,199,13768,40,16,18,1,100.0,True
+Austria sub12,Austria,FW,55.4,False,161,11420,40,14,15,1,100.0,True
+Japan sub4,Japan,FB,58.9,False,396,32127,39,47,37,1,100.0,True
+Paraguay sub10,Paraguay,FW,46.2,False,203,14666,39,25,16,1,100.0,True
+Iran sub7,Iran,CAM,45,False,271,16150,38,41,20,1,100.0,True
+Switzerland sub12,Switzerland,FW,52.7,False,259,4599,38,24,11,1,100.0,True
+Colombia sub8,Colombia,WM,63.6,False,260,20428,37,34,23,1,100.0,True
+Colombia sub12,Colombia,FW,60.8,False,252,14219,37,34,25,1,100.0,True
+Mexico sub8,Mexico,WM,49.6,False,179,9670,37,32,16,1,100.0,True
+Iraq sub9,Iraq,WM,45,False,249,14143,37,30,18,1,100.0,True
+Panama sub7,Panama,CAM,45,False,224,11954,36,37,20,1,100.0,True
+Haiti WM10,Haiti,WM,60.4,True,299,25390,36,33,34,1,100.0,True
+United States sub7,United States,CAM,56.7,False,206,12220,36,30,19,1,100.0,True
+Uruguay sub11,Uruguay,FW,61.6,False,202,14584,36,29,17,1,100.0,True
+Iraq sub6,Iraq,CM,45,False,326,23745,35,74,31,1,100.0,True
+Turkey CAM8,Turkey,CAM,70.1,True,262,22201,35,36,22,1,100.0,True
+Saudi Arabia sub8,Saudi Arabia,WM,45,False,278,16015,35,26,17,1,100.0,True
+Panama CAM8,Panama,CAM,61.8,True,247,20942,34,53,28,1,100.0,True
+Marcos Acuña,Argentina,FB,78.0,False,368,19542,34,42,35,1,100.0,True
+Uzbekistan CAM8,Uzbekistan,CAM,61.4,True,269,23040,34,41,24,1,100.0,True
+Morocco CM7,Morocco,CM,82.5,True,238,19700,34,34,20,1,100.0,True
+Ivory Coast sub8,Ivory Coast,WM,49.2,False,255,21690,34,33,21,1,100.0,True
+Phil Foden,England,WM,88.0,True,205,16940,34,24,15,1,100.0,True
+South Korea sub11,South Korea,FW,55.5,False,124,8379,34,14,8,1,100.0,True
+Panama sub2,Panama,CB,45,False,332,24913,33,29,21,1,100.0,True
+Egypt sub8,Egypt,WM,45,False,239,12174,33,28,22,1,100.0,True
+South Africa FW11,South Africa,FW,62.0,True,153,12629,33,11,15,1,100.0,True
+Tunisia sub5,Tunisia,CM,45,False,324,22788,32,50,31,1,100.0,True
+Bernardo Silva,Portugal,CAM,88.0,True,209,17266,32,38,24,1,100.0,True
+Chris Führich,Germany,WM,78.0,False,245,10645,32,31,19,1,100.0,True
+Curacao sub11,Curacao,FW,45,False,269,12333,32,20,19,1,100.0,True
+New Zealand FW11,New Zealand,FW,58.8,True,143,11770,32,14,15,1,100.0,True
+Uzbekistan FW11,Uzbekistan,FW,62.1,True,152,12741,32,13,20,1,100.0,True
+Bosnia and Herzegovina sub6,Bosnia and Herzegovina,CM,45,False,266,18432,31,27,19,1,100.0,True
+Canada WM9,Canada,WM,78.9,True,205,16359,31,23,21,1,100.0,True
+Lautaro Martínez,Argentina,FW,87.0,True,101,7937,31,20,10,1,100.0,True
+Nicolás Otamendi,Argentina,CB,79.0,False,401,27378,31,19,29,1,100.0,True
+Morocco sub2,Morocco,CB,54.3,False,439,24994,31,15,36,1,100.0,True
+Uruguay CM7,Uruguay,CM,79.2,True,307,25803,30,38,27,1,100.0,True
+Marcus Rashford,England,WM,83.0,True,209,17281,30,31,11,1,100.0,True
+Scotland sub9,Scotland,WM,48.9,False,230,17214,30,29,21,1,100.0,True
+Algeria sub10,Algeria,FW,49.9,False,134,9784,30,25,9,1,100.0,True
+Iran sub10,Iran,FW,45,False,139,3367,30,13,12,1,100.0,True
+Alexis Mac Allister,Argentina,CM,85.0,True,217,17428,29,27,15,1,100.0,True
+Colombia CM7,Colombia,CM,84.2,True,221,17768,29,20,23,1,100.0,True
+Daley Blind,Netherlands,CB,77.0,False,500,32767,29,18,38,1,100.0,True
+Brian Brobbey,Netherlands,FW,79.0,False,130,2724,29,12,7,1,100.0,True
+Harry Kane,England,FW,90.0,True,101,8079,29,11,6,1,100.0,True
+Switzerland CAM8,Switzerland,CAM,76.1,True,282,22343,28,40,22,1,100.0,True
+Morocco FB5,Morocco,FB,81.4,True,356,30401,28,37,26,1,100.0,True
+Croatia CM6,Croatia,CM,77.2,True,227,19676,28,35,12,1,100.0,True
+Vitinha,Portugal,CM,84.0,True,242,20409,28,32,19,1,100.0,True
+Valentín Carboni,Argentina,CAM,79.0,False,197,6133,28,25,9,1,100.0,True
+Tunisia sub8,Tunisia,WM,45,False,260,12906,28,23,20,1,100.0,True
+Morocco sub12,Morocco,FW,55.6,False,130,5496,28,10,8,1,100.0,True
+Sweden CM6,Sweden,CM,73.7,True,291,24669,27,30,25,1,100.0,True
+Japan CM6,Japan,CM,81.6,True,200,16789,27,29,22,1,100.0,True
+Algeria sub7,Algeria,CAM,49.7,False,254,19730,27,25,17,1,100.0,True
+Mexico FW11,Mexico,FW,73.3,True,108,8950,27,25,10,1,100.0,True
+Paraguay sub11,Paraguay,FW,47.0,False,114,8298,27,9,8,1,100.0,True
+Mexico sub12,Mexico,FW,54.2,False,81,5273,27,5,8,1,100.0,True
+Sweden CB2,Sweden,CB,75.7,True,403,35161,26,73,47,1,100.0,True
+Belgium CM6,Belgium,CM,80.0,True,221,18598,26,26,18,1,100.0,True
+Enzo Fernández,Argentina,CM,83.0,True,225,18257,26,25,12,1,100.0,True
+Croatia CM7,Croatia,CM,80.6,True,195,16434,26,24,18,1,100.0,True
+Sweden WM10,Sweden,WM,74.7,True,207,17186,26,17,17,1,100.0,True
+Croatia sub10,Croatia,FW,55.1,False,120,3677,26,17,7,1,100.0,True
+Alejandro Garnacho,Argentina,WM,83.0,False,191,12812,26,14,19,1,100.0,True
+Uzbekistan CM6,Uzbekistan,CM,66.0,True,259,21908,25,39,23,1,100.0,True
+Cape Verde CAM8,Cape Verde,CAM,64.4,True,203,16697,25,19,21,1,100.0,True
+Paraguay sub5,Paraguay,CM,45,False,232,10699,25,15,21,1,100.0,True
+Tunisia sub10,Tunisia,FW,46.3,False,115,8858,25,8,9,1,100.0,True
+DR Congo sub2,DR Congo,CB,45,False,350,29142,24,28,36,1,100.0,True
+Anthony Gordon,England,WM,81.0,False,217,10288,24,25,19,1,100.0,True
+Paraguay sub7,Paraguay,CAM,47.2,False,189,15511,24,24,14,1,100.0,True
+Lamine Yamal,Spain,WM,90.0,True,140,11443,24,23,15,1,100.0,True
+Iraq WM10,Iraq,WM,64.4,True,201,17194,24,22,23,1,100.0,True
+Éder Militão,Brazil,CB,86.0,True,477,41661,24,21,36,1,100.0,True
+Austria sub7,Austria,CAM,55.6,False,163,13125,24,17,13,1,100.0,True
+Norway FW11,Norway,FW,74.2,True,130,10202,24,16,18,1,100.0,True
+Cole Palmer,England,CAM,86.0,False,190,11993,23,25,12,1,100.0,True
+DR Congo FW11,DR Congo,FW,63.8,True,129,10700,23,18,13,1,100.0,True
+Czechia sub5,Czechia,CM,45,False,247,10215,23,18,9,1,100.0,True
+Nicolás González,Argentina,WM,78.0,False,206,3460,23,18,10,1,100.0,True
+Thomas Müller,Germany,FW,82.0,True,94,7747,23,17,9,1,100.0,True
+Saudi Arabia CAM8,Saudi Arabia,CAM,66.3,True,180,14641,23,14,17,1,100.0,True
+João Félix,Portugal,CAM,83.0,False,137,9017,23,12,9,1,100.0,True
+Japan sub12,Japan,FW,56.9,False,92,1928,23,10,4,1,100.0,True
+Belgium sub5,Belgium,CM,61.3,False,252,20748,22,39,19,1,100.0,True
+Turkey FB5,Turkey,FB,75.3,True,447,38500,22,25,39,1,100.0,True
+Algeria sub8,Algeria,WM,49.6,False,255,19195,22,23,24,1,100.0,True
+Mexico FB4,Mexico,FB,79.0,True,217,18712,22,22,24,1,100.0,True
+Jordan CAM8,Jordan,CAM,56.7,True,211,18129,22,17,23,1,100.0,True
+Jude Bellingham,England,CAM,91.0,True,138,10737,22,15,6,1,100.0,True
+Ivory Coast sub2,Ivory Coast,CB,45,False,312,17663,22,14,23,1,100.0,True
+New Zealand sub11,New Zealand,FW,45,False,121,2987,22,14,14,1,100.0,True
+DR Congo CB3,DR Congo,CB,66.0,True,309,26593,22,12,21,1,100.0,True
+Ayoze Pérez,Spain,FW,76.0,False,95,2250,22,11,3,1,100.0,True
+Qatar FW11,Qatar,FW,64.6,True,120,9654,22,9,17,1,100.0,True
+Bosnia and Herzegovina sub11,Bosnia and Herzegovina,FW,45,False,106,3119,22,8,6,1,100.0,True
+Czechia sub8,Czechia,WM,45.8,False,253,13523,21,29,14,1,100.0,True
+Uruguay sub7,Uruguay,CAM,59.6,False,224,13663,21,24,24,1,100.0,True
+South Korea sub8,South Korea,WM,50.3,False,170,4239,21,23,15,1,100.0,True
+Qatar sub6,Qatar,CM,45,False,279,16950,21,20,23,1,100.0,True
+Japan CAM8,Japan,CAM,74.2,True,124,10216,21,16,9,1,100.0,True
+Curacao sub10,Curacao,FW,45,False,170,6785,21,13,13,1,100.0,True
+Uzbekistan sub10,Uzbekistan,FW,45,False,134,4702,21,12,9,1,100.0,True
+Qatar sub5,Qatar,CM,45,False,306,19130,21,9,17,1,100.0,True
+Curacao sub7,Curacao,CAM,45,False,290,20742,20,30,21,1,100.0,True
+Qatar WM10,Qatar,WM,65.5,True,333,27869,20,28,32,1,100.0,True
+Ivory Coast sub7,Ivory Coast,CAM,46.1,False,193,10485,20,22,17,1,100.0,True
+Uzbekistan sub6,Uzbekistan,CM,45,False,214,12092,20,21,23,1,100.0,True
+Tunisia CM6,Tunisia,CM,70.2,True,230,19735,20,18,18,1,100.0,True
+Canada CM7,Canada,CM,80.0,True,203,16178,20,18,21,1,100.0,True
+Croatia sub11,Croatia,FW,56.4,False,118,7801,20,15,15,1,100.0,True
+Jarrod Bowen,England,WM,80.0,False,135,3246,20,13,10,1,100.0,True
+Cape Verde sub12,Cape Verde,FW,45,False,134,2773,20,12,4,1,100.0,True
+Egypt CB3,Egypt,CB,73.2,True,430,37251,20,9,47,1,100.0,True
+South Korea sub12,South Korea,FW,55.4,False,100,3454,20,9,4,1,100.0,True
+Belgium sub3,Belgium,CB,58.8,False,415,26741,19,45,45,1,100.0,True
+New Zealand WM10,New Zealand,WM,58.3,True,184,15671,19,24,13,1,100.0,True
+Paraguay FB5,Paraguay,FB,71.0,True,251,21493,19,19,27,1,100.0,True
+Scotland WM9,Scotland,WM,75.9,True,176,14339,19,19,19,1,100.0,True
+Iran sub9,Iran,WM,45,False,162,6069,19,19,9,1,100.0,True
+Uruguay CAM8,Uruguay,CAM,76.9,True,168,13675,19,18,17,1,100.0,True
+Colombia WM10,Colombia,WM,83.9,True,132,10681,19,18,15,1,100.0,True
+Adrien Rabiot,France,CM,83.0,True,146,12565,19,17,10,1,100.0,True
+Algeria sub9,Algeria,WM,46.4,False,163,5972,19,17,14,1,100.0,True
+Tunisia sub2,Tunisia,CB,45,False,328,27613,19,10,25,1,100.0,True
+Uzbekistan sub12,Uzbekistan,FW,45,False,116,2620,19,10,12,1,100.0,True
+Panama sub10,Panama,FW,45,False,122,3158,19,6,9,1,100.0,True
+Uzbekistan FB5,Uzbekistan,FB,61.7,True,312,26534,18,32,37,1,100.0,True
+Saudi Arabia sub9,Saudi Arabia,WM,45,False,250,12820,18,24,22,1,100.0,True
+Paraguay CAM8,Paraguay,CAM,72.9,True,152,12451,18,21,12,1,100.0,True
+Turkey sub6,Turkey,CM,50.3,False,249,11917,18,21,16,1,100.0,True
+Austria sub6,Austria,CM,50.9,False,202,7441,18,19,15,1,100.0,True
+Czechia sub6,Czechia,CM,45,False,239,8040,18,16,16,1,100.0,True
+Czechia sub9,Czechia,WM,47.2,False,192,9053,18,13,13,1,100.0,True
+Ecuador sub7,Ecuador,CAM,47.1,False,138,7297,18,13,8,1,100.0,True
+Morocco FW11,Morocco,FW,75.6,True,84,6970,18,13,11,1,100.0,True
+New Zealand sub12,New Zealand,FW,45,False,140,2985,18,12,8,1,100.0,True
+Egypt sub5,Egypt,CM,45,False,197,9888,18,10,20,1,100.0,True
+Haiti sub12,Haiti,FW,45,False,131,2925,18,9,9,1,100.0,True
+Bosnia and Herzegovina FW11,Bosnia and Herzegovina,FW,68.4,True,82,6395,18,5,8,1,100.0,True
+DR Congo sub6,DR Congo,CM,45,False,184,8008,17,35,18,1,100.0,True
+Jordan WM9,Jordan,WM,62.0,True,191,16120,17,22,17,1,100.0,True
+Lucas Paquetá,Brazil,CAM,86.0,True,148,11849,17,22,19,1,100.0,True
+Morocco sub4,Morocco,FB,57.1,False,285,19571,17,19,26,1,100.0,True
+Belgium CM7,Belgium,CM,80.1,True,153,12438,17,19,13,1,100.0,True
+Australia CAM8,Australia,CAM,68.2,True,163,14027,17,18,14,1,100.0,True
+Scotland FB4,Scotland,FB,68.4,True,270,22844,17,17,30,1,100.0,True
+Senegal sub8,Senegal,WM,54.2,False,112,5373,17,15,5,1,100.0,True
+Austria sub2,Austria,CB,51.1,False,331,21356,17,13,32,1,100.0,True
+Savinho,Brazil,WM,80.0,False,150,3162,17,13,10,1,100.0,True
+Cape Verde FW11,Cape Verde,FW,63.5,True,108,8663,17,5,18,1,100.0,True
+Julián Álvarez,Argentina,FW,87.0,True,40,3112,17,2,5,1,100.0,True
+Ollie Watkins,England,FW,82.0,False,106,1961,17,2,4,1,100.0,True
+Tijjani Reijnders,Netherlands,CM,84.0,True,212,17526,16,30,21,1,100.0,True
+Ecuador sub9,Ecuador,WM,46.3,False,179,9759,16,26,10,1,100.0,True
+Iraq CM7,Iraq,CM,57.7,True,224,18913,16,24,17,1,100.0,True
+Switzerland CM7,Switzerland,CM,79.7,True,212,16826,16,23,22,1,100.0,True
+Egypt sub11,Egypt,FW,45,False,148,3659,16,15,16,1,100.0,True
+Croatia FW11,Croatia,FW,84.0,True,62,4681,16,11,7,1,100.0,True
+Iran sub12,Iran,FW,45,False,118,2128,16,3,8,1,100.0,True
+Cape Verde sub4,Cape Verde,FB,45,False,321,20406,15,63,18,1,100.0,True
+Turkey FB4,Turkey,FB,71.3,True,377,32561,15,35,21,1,100.0,True
+Declan Rice,England,CM,88.0,True,149,12277,15,22,19,1,100.0,True
+Pascal Groß,Germany,CM,78.0,False,134,2383,15,21,8,1,100.0,True
+Sweden sub4,Sweden,FB,48.2,False,306,17349,15,20,29,1,100.0,True
+Ghana CM6,Ghana,CM,73.2,True,188,15998,15,19,15,1,100.0,True
+Senegal WM9,Senegal,WM,77.5,True,184,14931,15,15,20,1,100.0,True
+Ecuador CM7,Ecuador,CM,70.2,True,146,11741,15,15,12,1,100.0,True
+Switzerland sub3,Switzerland,CB,54.0,False,444,20871,15,14,38,1,100.0,True
+United States sub12,United States,FW,58.5,False,69,1598,15,7,1,1,100.0,True
+Paraguay FW11,Paraguay,FW,69.3,True,85,6865,15,5,8,1,100.0,True
+Czechia FW11,Czechia,FW,75.3,True,55,4367,15,4,6,1,100.0,True
+New Zealand sub10,New Zealand,FW,45,False,79,2258,15,3,8,1,100.0,True
+Austria sub10,Austria,FW,52.3,False,85,3185,15,2,7,1,100.0,True
+Curacao FB5,Curacao,FB,58.8,True,368,32233,14,24,42,1,100.0,True
+New Zealand FB5,New Zealand,FB,61.4,True,239,20512,14,13,19,1,100.0,True
+Czechia sub10,Czechia,FW,49.7,False,78,4614,14,12,11,1,100.0,True
+Denzel Dumfries,Netherlands,FB,84.0,True,188,15532,14,11,24,1,100.0,True
+Iraq sub10,Iraq,FW,45,False,95,2422,14,10,6,1,100.0,True
+Japan WM10,Japan,WM,75.6,True,102,7995,14,9,7,1,100.0,True
+South Africa CB3,South Africa,CB,60.6,True,326,28176,14,8,32,1,100.0,True
+Turkey sub11,Turkey,FW,50.7,False,99,1951,14,8,5,1,100.0,True
+Colombia sub3,Colombia,CB,62.4,False,293,22727,14,7,21,1,100.0,True
+Curacao WM9,Curacao,WM,61.9,True,127,10053,14,7,14,1,100.0,True
+Bryan Gil,Spain,WM,78.0,False,112,2918,14,7,10,1,100.0,True
+United States sub8,United States,WM,61.0,False,97,7356,14,6,11,1,100.0,True
+Cody Gakpo,Netherlands,WM,85.0,True,86,6768,14,6,11,1,100.0,True
+Australia sub12,Australia,FW,48.6,False,91,6525,14,4,6,1,100.0,True
+United States CB2,United States,CB,76.6,True,250,21535,14,3,22,1,100.0,True
+Croatia sub12,Croatia,FW,53.8,False,87,2038,14,3,6,1,100.0,True
+Switzerland CB3,Switzerland,CB,76.9,True,257,20508,14,2,24,1,100.0,True
+Australia FB5,Australia,FB,75.0,True,221,19006,13,27,12,1,100.0,True
+Curacao sub5,Curacao,CM,45,False,309,23000,13,22,25,1,100.0,True
+Egypt FB4,Egypt,FB,68.6,True,314,26984,13,21,27,1,100.0,True
+Pedro Neto,Portugal,WM,83.0,True,121,9761,13,18,12,1,100.0,True
+Marc Guehi,England,CB,82.0,False,257,15100,13,17,23,1,100.0,True
+New Zealand sub9,New Zealand,WM,45,False,179,9109,13,17,9,1,100.0,True
+Iran WM9,Iran,WM,71.2,True,141,11510,13,16,16,1,100.0,True
+Panama CM6,Panama,CM,60.1,True,166,13677,13,13,17,1,100.0,True
+Martín Zubimendi,Spain,CM,83.0,False,131,7524,13,12,5,1,100.0,True
+Morocco sub7,Morocco,CAM,57.7,False,81,3635,13,11,3,1,100.0,True
+Ecuador CB2,Ecuador,CB,75.4,True,314,27175,13,8,22,1,100.0,True
+Colombia CM6,Colombia,CM,82.9,True,103,8151,13,8,7,1,100.0,True
+Ecuador FW11,Ecuador,FW,72.0,True,56,4480,13,6,3,1,100.0,True
+Bosnia and Herzegovina sub10,Bosnia and Herzegovina,FW,45,False,90,1738,13,6,12,1,100.0,True
+Canada sub2,Canada,CB,54.0,False,264,10167,13,4,23,1,100.0,True
+Jordan sub10,Jordan,FW,45,False,112,2934,13,4,5,1,100.0,True
+Uzbekistan sub3,Uzbekistan,CB,45,False,333,26706,12,33,38,1,100.0,True
+Uruguay sub5,Uruguay,CM,61.2,False,213,14985,12,21,22,1,100.0,True
+Canada CAM8,Canada,CAM,76.6,True,125,9767,12,21,16,1,100.0,True
+South Africa sub8,South Africa,WM,45,False,184,7878,12,21,9,1,100.0,True
+Ousmane Dembélé,France,WM,87.0,True,107,8987,12,15,11,1,100.0,True
+Canada CM6,Canada,CM,72.8,True,167,13243,12,14,14,1,100.0,True
+Aurélien Tchouaméni,France,CM,86.0,True,107,9069,12,14,9,1,100.0,True
+South Africa CAM8,South Africa,CAM,65.1,True,164,13628,12,13,15,1,100.0,True
+Switzerland sub5,Switzerland,CM,53.1,False,264,4622,12,13,9,1,100.0,True
+Qatar FB5,Qatar,FB,62.1,True,347,29418,12,12,26,1,100.0,True
+Cape Verde CM6,Cape Verde,CM,66.2,True,174,14127,12,12,13,1,100.0,True
+Haiti sub7,Haiti,CAM,45,False,164,6908,12,12,6,1,100.0,True
+Austria sub8,Austria,WM,51.4,False,122,5298,12,12,12,1,100.0,True
+New Zealand CB3,New Zealand,CB,59.2,True,315,27184,12,10,35,1,100.0,True
+Sweden sub5,Sweden,CM,49.9,False,149,4373,12,10,9,1,100.0,True
+Gabriel Martinelli,Brazil,WM,83.0,False,143,5983,12,9,12,1,100.0,True
+Senegal CM6,Senegal,CM,78.3,True,75,5759,12,8,8,1,100.0,True
+Algeria sub11,Algeria,FW,50.1,False,73,4831,12,8,3,1,100.0,True
+Christopher Nkunku,France,CAM,84.0,False,79,3943,12,8,1,1,100.0,True
+DR Congo sub8,DR Congo,WM,45,False,132,3197,12,8,11,1,100.0,True
+Czechia CM7,Czechia,CM,72.3,True,167,13695,12,7,14,1,100.0,True
+Paraguay sub8,Paraguay,WM,45,False,111,2563,12,7,8,1,100.0,True
+Deniz Undav,Germany,FW,78.0,False,66,991,12,6,3,1,100.0,True
+Jordan CB2,Jordan,CB,63.2,True,223,18859,12,5,11,1,100.0,True
+Nicolás Tagliafico,Argentina,FB,79.0,True,162,13054,12,5,13,1,100.0,True
+Haiti FW11,Haiti,FW,61.3,True,108,8496,12,5,5,1,100.0,True
+Virgil van Dijk,Netherlands,CB,88.0,True,291,24910,12,3,42,1,100.0,True
+Haiti sub3,Haiti,CB,45,False,308,23821,12,3,26,1,100.0,True
+Canada FB5,Canada,FB,78.9,True,285,23707,11,20,27,1,100.0,True
+Switzerland CM6,Switzerland,CM,77.2,True,83,6734,11,15,9,1,100.0,True
+Nahuel Molina,Argentina,FB,81.0,True,199,15861,11,14,17,1,100.0,True
+Algeria WM9,Algeria,WM,72.4,True,165,13548,11,12,17,1,100.0,True
+Robert Andrich,Germany,CM,80.0,False,174,8682,11,11,13,1,100.0,True
+Mexico CM7,Mexico,CM,72.8,True,89,6881,11,11,10,1,100.0,True
+Haiti sub10,Haiti,FW,45,False,104,2155,11,10,5,1,100.0,True
+Czechia FB5,Czechia,FB,73.9,True,228,18479,11,9,29,1,100.0,True
+Jordan sub6,Jordan,CM,45,False,204,11602,11,9,11,1,100.0,True
+Egypt WM10,Egypt,WM,70.8,True,136,10909,11,9,11,1,100.0,True
+Panama sub6,Panama,CM,45,False,126,2713,11,8,11,1,100.0,True
+Uzbekistan WM10,Uzbekistan,WM,63.0,True,109,8527,11,7,7,1,100.0,True
+Ghana sub10,Ghana,FW,45,False,91,2077,11,7,8,1,100.0,True
+Canada CB2,Canada,CB,75.9,True,275,22802,11,6,30,1,100.0,True
+Bosnia and Herzegovina sub7,Bosnia and Herzegovina,CAM,45,False,154,7872,11,5,9,1,100.0,True
+Cape Verde sub8,Cape Verde,WM,45,False,144,3531,11,5,11,1,100.0,True
+Saudi Arabia sub10,Saudi Arabia,FW,45,False,111,2501,11,4,6,1,100.0,True
+Rodrygo,Brazil,WM,86.0,True,57,4640,11,3,3,1,100.0,True
+Australia sub10,Australia,FW,48.2,False,63,2329,11,2,6,1,100.0,True
+Qatar FB4,Qatar,FB,63.0,True,478,40961,10,25,40,1,100.0,True
+Saudi Arabia FB4,Saudi Arabia,FB,65.1,True,330,28324,10,23,37,1,100.0,True
+Switzerland FB5,Switzerland,FB,74.0,True,278,22008,10,16,16,1,100.0,True
+Senegal sub4,Senegal,FB,56.7,False,225,17311,10,16,14,1,100.0,True
+Turkey WM10,Turkey,WM,75.3,True,151,12109,10,16,17,1,100.0,True
+Uzbekistan sub5,Uzbekistan,CM,45,False,199,11504,10,14,15,1,100.0,True
+Vinícius Júnior,Brazil,WM,92.0,True,114,9363,10,14,11,1,100.0,True
+Czechia WM10,Czechia,WM,74.3,True,160,13144,10,13,17,1,100.0,True
+Ghana sub6,Ghana,CM,45,False,162,10468,10,12,10,1,100.0,True
+Australia sub9,Australia,WM,45,False,102,3106,10,10,9,1,100.0,True
+Antonio Rüdiger,Germany,CB,86.0,True,267,22936,10,9,23,1,100.0,True
+Switzerland sub4,Switzerland,FB,55.3,False,234,13421,10,9,19,1,100.0,True
+Scotland sub3,Scotland,CB,45,False,268,12770,10,9,20,1,100.0,True
+Cape Verde WM10,Cape Verde,WM,66.9,True,144,11368,10,9,15,1,100.0,True
+Raphinha,Brazil,WM,85.0,True,75,5920,10,9,9,1,100.0,True
+Canada sub12,Canada,FW,57.6,False,67,2319,10,9,4,1,100.0,True
+Panama FB5,Panama,FB,65.7,True,207,17286,10,8,25,1,100.0,True
+Ghana sub5,Ghana,CM,45,False,156,9730,10,8,16,1,100.0,True
+Bosnia and Herzegovina CB2,Bosnia and Herzegovina,CB,66.2,True,271,23470,10,7,32,1,100.0,True
+Turkey sub2,Turkey,CB,50.2,False,356,19419,10,7,30,1,100.0,True
+Alex Sandro,Brazil,FB,74.0,False,189,5029,10,6,11,1,100.0,True
+Australia sub7,Australia,CAM,45,False,93,2878,10,6,6,1,100.0,True
+Paraguay sub12,Paraguay,FW,45,False,86,1839,10,6,3,1,100.0,True
+South Korea sub3,South Korea,CB,52.5,False,226,11050,10,5,15,1,100.0,True
+DR Congo sub9,DR Congo,WM,45,False,86,1534,10,5,3,1,100.0,True
+Uruguay CB3,Uruguay,CB,82.8,True,228,18564,10,4,26,1,100.0,True
+Niklas Süle,Germany,CB,81.0,False,168,9654,10,3,15,1,100.0,True
+Austria sub11,Austria,FW,56.1,False,69,5453,10,3,4,1,100.0,True
+Japan FW11,Japan,FW,76.7,True,28,2256,10,3,1,1,100.0,True
+Belgium sub6,Belgium,CM,56.5,False,162,3622,9,18,19,1,100.0,True
+Morocco CM6,Morocco,CM,79.7,True,137,11274,9,17,10,1,100.0,True
+Colombia sub9,Colombia,WM,60.6,False,153,4556,9,15,5,1,100.0,True
+Japan sub8,Japan,WM,55.8,False,121,2809,9,14,6,1,100.0,True
+Haiti sub4,Haiti,FB,45,False,264,19575,9,11,20,1,100.0,True
+Trent Alexander-Arnold,England,FB,84.0,False,215,13924,9,11,16,1,100.0,True
+Czechia sub7,Czechia,CAM,48.6,False,152,6938,9,11,16,1,100.0,True
+Mexico sub6,Mexico,CM,52.0,False,114,6486,9,10,5,1,100.0,True
+Saudi Arabia FB5,Saudi Arabia,FB,64.9,True,215,18126,9,9,23,1,100.0,True
+Ecuador sub2,Ecuador,CB,45.9,False,246,11919,9,9,17,1,100.0,True
+Nacho Fernández,Spain,CB,80.0,False,213,11490,9,9,21,1,100.0,True
+Senegal sub5,Senegal,CM,54.1,False,151,7707,9,9,13,1,100.0,True
+Ecuador sub6,Ecuador,CM,47.8,False,94,4391,9,9,4,1,100.0,True
+Belgium FB5,Belgium,FB,82.1,True,200,16455,9,8,10,1,100.0,True
+Croatia WM9,Croatia,WM,79.4,True,73,5737,9,8,8,1,100.0,True
+Scotland CB2,Scotland,CB,74.9,True,266,22506,9,7,26,1,100.0,True
+Saudi Arabia CM6,Saudi Arabia,CM,69.0,True,139,11179,9,7,16,1,100.0,True
+Senegal FW11,Senegal,FW,81.6,True,38,3166,9,7,1,1,100.0,True
+South Korea CAM8,South Korea,CAM,79.5,True,76,6130,9,6,8,1,100.0,True
+Bosnia and Herzegovina sub5,Bosnia and Herzegovina,CM,45,False,98,4060,9,6,7,1,100.0,True
+South Africa sub10,South Africa,FW,45,False,95,1867,9,6,7,1,100.0,True
+DR Congo sub10,DR Congo,FW,45,False,84,1957,9,5,5,1,100.0,True
+South Korea sub10,South Korea,FW,54.5,False,56,721,9,5,1,1,100.0,True
+Curacao CB2,Curacao,CB,58.7,True,304,26196,9,4,31,1,100.0,True
+Danilo Pereira,Portugal,CB,78.0,False,299,17488,9,4,18,1,100.0,True
+Harry Maguire,England,CB,79.0,True,121,9704,9,2,13,1,100.0,True
+Switzerland sub2,Switzerland,CB,53.3,False,299,7976,9,2,13,1,100.0,True
+Rafael Leão,Portugal,WM,87.0,True,53,4251,9,2,2,1,100.0,True
+Jordan WM10,Jordan,WM,57.7,True,105,8501,9,0,9,1,100.0,True
+Bosnia and Herzegovina CM7,Bosnia and Herzegovina,CM,72.2,True,144,12076,8,15,9,1,100.0,True
+Japan CB3,Japan,CB,79.0,True,256,21730,8,13,26,1,100.0,True
+Saudi Arabia WM10,Saudi Arabia,WM,67.7,True,67,5266,8,13,3,1,100.0,True
+Haiti WM9,Haiti,WM,54.9,True,141,11733,8,12,14,1,100.0,True
+Saudi Arabia CM7,Saudi Arabia,CM,65.2,True,134,11171,8,12,7,1,100.0,True
+Rodrigo De Paul,Argentina,CM,84.0,True,92,7475,8,12,7,1,100.0,True
+South Africa sub6,South Africa,CM,45,False,131,5480,8,11,5,1,100.0,True
+Danilo,Brazil,FB,79.0,True,207,17266,8,10,17,1,100.0,True
+Alejandro Grimaldo,Spain,FB,83.0,False,153,10783,8,9,18,1,100.0,True
+United States sub10,United States,FW,57.1,False,78,1446,8,9,2,1,100.0,True
+Ivory Coast FB5,Ivory Coast,FB,70.1,True,148,12084,8,7,12,1,100.0,True
+Scotland CM6,Scotland,CM,70.7,True,111,8820,8,7,7,1,100.0,True
+Bruma,Portugal,WM,75.0,False,104,1891,8,7,7,1,100.0,True
+Iraq sub4,Iraq,FB,45,False,184,12791,8,6,13,1,100.0,True
+Saudi Arabia CB2,Saudi Arabia,CB,69.9,True,313,26561,8,5,32,1,100.0,True
+Colombia sub4,Colombia,FB,62.5,False,95,6200,8,5,9,1,100.0,True
+Belgium CAM8,Belgium,CAM,80.8,True,40,3266,8,5,2,1,100.0,True
+Cape Verde sub7,Cape Verde,CAM,45,False,124,2517,8,5,1,1,100.0,True
+Haiti CB3,Haiti,CB,61.4,True,278,23818,8,4,24,1,100.0,True
+DR Congo CB2,DR Congo,CB,66.6,True,240,20287,8,4,14,1,100.0,True
+Iraq sub3,Iraq,CB,45,False,174,12432,8,4,14,1,100.0,True
+DR Congo sub3,DR Congo,CB,45,False,173,12174,8,4,10,1,100.0,True
+DR Congo sub12,DR Congo,FW,45,False,68,1173,8,4,5,1,100.0,True
+Panama sub12,Panama,FW,45,False,64,771,8,2,5,1,100.0,True
+Belgium sub9,Belgium,WM,59.3,False,77,1759,8,1,3,1,100.0,True
+David Raum,Germany,FB,81.0,True,197,16666,7,15,20,1,100.0,True
+Scotland sub6,Scotland,CM,48.8,False,146,9077,7,12,11,1,100.0,True
+Bremer,Brazil,CB,83.0,False,337,23750,7,10,22,1,100.0,True
+Uzbekistan FB4,Uzbekistan,FB,65.0,True,176,14625,7,10,12,1,100.0,True
+Saudi Arabia sub5,Saudi Arabia,CM,45,False,152,8511,7,10,10,1,100.0,True
+Egypt sub12,Egypt,FW,45,False,98,1966,7,9,5,1,100.0,True
+Canada sub4,Canada,FB,58.1,False,152,11807,7,8,19,1,100.0,True
+Panama WM10,Panama,WM,64.9,True,57,4612,7,8,2,1,100.0,True
+Ecuador sub4,Ecuador,FB,45.1,False,158,4215,7,8,11,1,100.0,True
+Croatia sub4,Croatia,FB,54.5,False,123,3013,7,8,9,1,100.0,True
+Senegal CB2,Senegal,CB,77.7,True,157,12730,7,7,10,1,100.0,True
+Leroy Sané,Germany,WM,85.0,True,53,4211,7,7,5,1,100.0,True
+Ivory Coast CAM8,Ivory Coast,CAM,76.7,True,46,3649,7,7,5,1,100.0,True
+Gabriel Magalhães,Brazil,CB,84.0,False,178,13422,7,6,13,1,100.0,True
+South Africa sub9,South Africa,WM,45,False,106,2233,7,6,8,1,100.0,True
+Ivory Coast sub10,Ivory Coast,FW,48.5,False,66,2079,7,6,2,1,100.0,True
+Curacao FB4,Curacao,FB,58.6,True,240,20628,7,5,16,1,100.0,True
+Algeria CAM8,Algeria,CAM,75.0,True,96,7844,7,5,13,1,100.0,True
+Panama sub11,Panama,FW,45,False,69,1001,7,5,2,1,100.0,True
+Senegal WM10,Senegal,WM,79.3,True,51,4009,7,4,2,1,100.0,True
+Gerson,Brazil,CM,79.0,False,89,1329,7,3,4,1,100.0,True
+Egypt sub3,Egypt,CB,45,False,169,7483,7,2,11,1,100.0,True
+Jordan CM7,Jordan,CM,59.4,True,84,6433,7,2,7,1,100.0,True
+Justin Kluivert,Netherlands,WM,78.0,False,87,1622,7,1,9,1,100.0,True
+Ecuador CB3,Ecuador,CB,72.2,True,153,12614,7,0,15,1,100.0,True
+United States sub2,United States,CB,60.8,False,95,7507,7,0,12,1,100.0,True
+United States sub5,United States,CM,58.8,False,132,5052,6,19,7,1,100.0,True
+Jordan sub2,Jordan,CB,45,False,275,20502,6,10,22,1,100.0,True
+Ghana FB5,Ghana,FB,68.7,True,197,16917,6,10,20,1,100.0,True
+Jordan sub11,Jordan,FW,45,False,105,1780,6,10,5,1,100.0,True
+Ivory Coast WM9,Ivory Coast,WM,72.3,True,88,7012,6,9,11,1,100.0,True
+Qatar CM7,Qatar,CM,61.7,True,112,8566,6,8,10,1,100.0,True
+Bosnia and Herzegovina WM10,Bosnia and Herzegovina,WM,66.2,True,70,5521,6,8,8,1,100.0,True
+Ivory Coast sub5,Ivory Coast,CM,46.7,False,136,6889,6,7,13,1,100.0,True
+Wendell,Brazil,FB,76.0,False,131,2147,6,7,5,1,100.0,True
+Norway sub5,Norway,CM,51.9,False,98,2340,6,6,8,1,100.0,True
+Haiti sub8,Haiti,WM,45,False,109,2101,6,6,1,1,100.0,True
+Francisco Conceição,Portugal,WM,81.0,False,69,1014,6,6,4,1,100.0,True
+Switzerland CB2,Switzerland,CB,76.2,True,294,23874,6,5,26,1,100.0,True
+Iran CB2,Iran,CB,70.2,True,181,14974,6,5,16,1,100.0,True
+Dayot Upamecano,France,CB,85.0,True,150,12859,6,5,12,1,100.0,True
+Nathan Aké,Netherlands,FB,82.0,True,86,6926,6,5,7,1,100.0,True
+Scotland sub5,Scotland,CM,45,False,126,2903,6,5,4,1,100.0,True
+Saudi Arabia sub7,Saudi Arabia,CAM,45,False,107,2058,6,5,10,1,100.0,True
+Egypt CB2,Egypt,CB,73.9,True,226,18894,6,4,25,1,100.0,True
+Australia FB4,Australia,FB,73.0,True,130,10875,6,4,18,1,100.0,True
+Australia WM9,Australia,WM,74.9,True,41,3434,6,4,4,1,100.0,True
+Paraguay sub9,Paraguay,WM,45,False,92,2218,6,4,9,1,100.0,True
+Yeremy Pino,Spain,WM,78.0,False,61,1424,6,4,4,1,100.0,True
+Tunisia CB3,Tunisia,CB,72.7,True,279,24203,6,3,23,1,100.0,True
+Turkey CM7,Turkey,CM,71.6,True,78,6120,6,3,7,1,100.0,True
+Uruguay sub9,Uruguay,WM,59.3,False,96,1563,6,3,8,1,100.0,True
+Sweden sub8,Sweden,WM,48.3,False,76,1174,6,3,3,1,100.0,True
+Colombia sub2,Colombia,CB,60.8,False,215,11416,6,2,11,1,100.0,True
+Aymeric Laporte,Spain,CB,83.0,True,126,10018,6,2,12,1,100.0,True
+Ghana sub3,Ghana,CB,45.6,False,134,8982,6,2,6,1,100.0,True
+Curacao WM10,Curacao,WM,60.8,True,77,6307,6,2,5,1,100.0,True
+United States CM7,United States,CM,78.2,True,42,3205,6,2,8,1,100.0,True
+Ecuador CAM8,Ecuador,CAM,70.5,True,27,2271,6,2,2,1,100.0,True
+Ivory Coast sub3,Ivory Coast,CB,48.9,False,176,12981,6,1,12,1,100.0,True
+Iraq sub2,Iraq,CB,45,False,156,11423,6,1,10,1,100.0,True
+Haiti CM7,Haiti,CM,56.4,True,45,3769,6,1,4,1,100.0,True
+Ivory Coast CB2,Ivory Coast,CB,71.9,True,167,13785,6,0,16,1,100.0,True
+Canada CB3,Canada,CB,79.1,True,86,6983,6,0,5,1,100.0,True
+Cape Verde sub6,Cape Verde,CM,45,False,188,8496,5,21,16,1,100.0,True
+Switzerland FB4,Switzerland,FB,74.9,True,227,18015,5,12,16,1,100.0,True
+Curacao sub8,Curacao,WM,45,False,194,11485,5,12,20,1,100.0,True
+Sweden CM7,Sweden,CM,71.5,True,71,5558,5,11,9,1,100.0,True
+Belgium sub7,Belgium,CAM,61.5,False,53,4280,5,10,1,1,100.0,True
+Turkey sub7,Turkey,CAM,49.2,False,113,2534,5,10,3,1,100.0,True
+Canada sub8,Canada,WM,56.4,False,102,1745,5,10,7,1,100.0,True
+Cape Verde CB2,Cape Verde,CB,66.7,True,271,23048,5,9,19,1,100.0,True
+Egypt CAM8,Egypt,CAM,71.1,True,101,8184,5,8,7,1,100.0,True
+Czechia CM6,Czechia,CM,69.7,True,95,7633,5,8,7,1,100.0,True
+Norway sub6,Norway,CM,52.3,False,121,2547,5,8,7,1,100.0,True
+Ghana sub7,Ghana,CAM,45.4,False,102,5404,5,7,4,1,100.0,True
+Iran FB5,Iran,FB,73.3,True,126,9709,5,6,14,1,100.0,True
+South Africa CB2,South Africa,CB,63.4,True,195,16460,5,5,16,1,100.0,True
+António Silva,Portugal,CB,82.0,True,188,15580,5,5,14,1,100.0,True
+Czechia sub2,Czechia,CB,45.7,False,275,14078,5,5,23,1,100.0,True
+Sweden FB5,Sweden,FB,75.5,True,134,10719,5,5,17,1,100.0,True
+South Korea FB5,South Korea,FB,79.0,True,89,7088,5,5,13,1,100.0,True
+Jamal Musiala,Germany,WM,90.0,True,56,4439,5,5,8,1,100.0,True
+Australia sub6,Australia,CM,47.9,False,75,2460,5,5,2,1,100.0,True
+Sweden FB4,Sweden,FB,77.4,True,183,14927,5,4,15,1,100.0,True
+Paraguay sub3,Paraguay,CB,45,False,165,6977,5,4,9,1,100.0,True
+Ezri Konsa,England,CB,79.0,False,191,6811,5,4,11,1,100.0,True
+United States sub3,United States,CB,56.1,False,154,4896,5,4,13,1,100.0,True
+Quinten Timber,Netherlands,CM,78.0,False,104,2277,5,4,7,1,100.0,True
+Norway sub3,Norway,CB,52.1,False,225,11964,5,3,20,1,100.0,True
+Ivory Coast WM10,Ivory Coast,WM,72.6,True,61,5016,5,3,5,1,100.0,True
+Germán Pezzella,Argentina,CB,77.0,False,218,4577,5,3,11,1,100.0,True
+Japan WM9,Japan,WM,76.4,True,40,3079,5,3,3,1,100.0,True
+Scotland FW11,Scotland,FW,71.2,True,30,2367,5,3,1,1,100.0,True
+Rúben Neves,Portugal,CM,82.0,False,70,2104,5,3,7,1,100.0,True
+South Korea WM9,South Korea,WM,73.9,True,25,1981,5,3,2,1,100.0,True
+DR Congo sub11,DR Congo,FW,45,False,76,1731,5,3,4,1,100.0,True
+Turkey sub10,Turkey,FW,48.3,False,81,1152,5,3,4,1,100.0,True
+Morocco sub11,Morocco,FW,58.3,False,42,778,5,3,1,1,100.0,True
+Ecuador sub11,Ecuador,FW,46.5,False,46,570,5,3,1,1,100.0,True
+Canada sub3,Canada,CB,53.3,False,283,11901,5,2,20,1,100.0,True
+Colombia FW11,Colombia,FW,82.2,True,15,1129,5,2,0,1,100.0,True
+Marcus Thuram,France,FW,85.0,True,15,1126,5,2,0,1,100.0,True
+Belgium sub12,Belgium,FW,56.5,False,25,352,5,2,1,1,100.0,True
+Uruguay CB2,Uruguay,CB,79.4,True,77,5935,5,1,6,1,100.0,True
+Croatia sub2,Croatia,CB,54.9,False,150,5446,5,1,8,1,100.0,True
+Sweden WM9,Sweden,WM,71.5,True,45,3800,5,1,5,1,100.0,True
+New Zealand CAM8,New Zealand,CAM,63.8,True,32,2563,5,1,3,1,100.0,True
+Scotland sub8,Scotland,WM,49.0,False,42,2235,5,1,4,1,100.0,True
+Iraq CB3,Iraq,CB,64.8,True,125,10176,5,0,12,1,100.0,True
+Senegal sub12,Senegal,FW,52.1,False,58,718,5,0,1,1,100.0,True
+Florian Wirtz,Germany,CAM,89.0,True,9,681,5,0,0,1,100.0,True
+Scotland sub4,Scotland,FB,49.4,False,177,13777,4,8,19,1,100.0,True
+Iraq WM9,Iraq,WM,64.3,True,81,6384,4,7,6,1,100.0,True
+Robin Le Normand,Spain,CB,82.0,True,113,9112,4,6,9,1,100.0,True
+Ecuador sub5,Ecuador,CM,48.9,False,90,4708,4,6,4,1,100.0,True
+Egypt sub6,Egypt,CM,46.3,False,65,4673,4,6,6,1,100.0,True
+Lionel Messi,Argentina,CAM,91.0,True,41,3081,4,6,4,1,100.0,True
+Iraq sub8,Iraq,WM,45,False,74,2034,4,6,4,1,100.0,True
+South Africa FB4,South Africa,FB,67.0,True,127,10401,4,5,12,1,100.0,True
+Ecuador CM6,Ecuador,CM,74.9,True,48,3895,4,5,5,1,100.0,True
+Norway sub4,Norway,FB,52.0,False,112,2662,4,5,16,1,100.0,True
+Sweden CB3,Sweden,CB,72.7,True,296,25313,4,4,19,1,100.0,True
+Jules Koundé,France,CB,87.0,True,84,7090,4,4,6,1,100.0,True
+Kyle Walker,England,FB,83.0,True,68,5559,4,4,6,1,100.0,True
+Ecuador FB5,Ecuador,FB,74.1,True,61,4832,4,4,6,1,100.0,True
+Micky van de Ven,Netherlands,CB,82.0,False,98,6220,4,3,7,1,100.0,True
+Croatia sub3,Croatia,CB,53.6,False,141,4907,4,3,15,1,100.0,True
+Ghana CAM8,Ghana,CAM,72.5,True,57,4384,4,3,6,1,100.0,True
+Croatia WM10,Croatia,WM,81.7,True,32,2518,4,3,1,1,100.0,True
+New Zealand CM6,New Zealand,CM,56.6,True,31,2477,4,3,1,1,100.0,True
+Mexico CM6,Mexico,CM,79.2,True,26,2157,4,3,7,1,100.0,True
+Ivory Coast CM7,Ivory Coast,CM,72.4,True,24,1865,4,3,3,1,100.0,True
+Tunisia CB2,Tunisia,CB,70.7,True,157,13104,4,2,15,1,100.0,True
+Czechia CB3,Czechia,CB,74.0,True,118,9420,4,2,18,1,100.0,True
+Australia CB3,Australia,CB,71.2,True,110,8994,4,2,11,1,100.0,True
+Croatia CB3,Croatia,CB,77.3,True,109,8754,4,2,7,1,100.0,True
+Curacao CM7,Curacao,CM,59.9,True,57,4419,4,2,5,1,100.0,True
+Czechia WM9,Czechia,WM,74.9,True,43,3364,4,2,7,1,100.0,True
+Belgium sub8,Belgium,WM,59.7,False,84,2609,4,2,6,1,100.0,True
+Morocco WM10,Morocco,WM,77.5,True,28,2180,4,2,1,1,100.0,True
+Youssouf Fofana,France,CM,81.0,False,40,1165,4,2,2,1,100.0,True
+Curtis Jones,England,CM,79.0,False,49,670,4,2,1,1,100.0,True
+Ivory Coast sub6,Ivory Coast,CM,45,False,47,583,4,2,3,1,100.0,True
+Norway CB2,Norway,CB,78.3,True,141,11534,4,1,13,1,100.0,True
+Cape Verde sub3,Cape Verde,CB,45,False,195,9986,4,1,10,1,100.0,True
+Paraguay sub2,Paraguay,CB,45,False,178,9642,4,1,11,1,100.0,True
+Japan CB2,Japan,CB,80.5,True,98,7529,4,1,7,1,100.0,True
+Scotland WM10,Scotland,WM,75.0,True,60,4705,4,1,5,1,100.0,True
+Haiti FB4,Haiti,FB,56.8,True,51,4038,4,1,6,1,100.0,True
+Iraq CM6,Iraq,CM,57.9,True,36,2893,4,1,2,1,100.0,True
+Dani Olmo,Spain,CAM,85.0,False,14,994,4,1,2,1,100.0,True
+Iran sub5,Iran,CM,45,False,32,494,4,1,2,1,100.0,True
+Uruguay sub2,Uruguay,CB,56.6,False,204,4574,4,0,14,1,100.0,True
+Cape Verde sub9,Cape Verde,WM,45,False,101,1527,3,8,6,1,100.0,True
+Norway sub8,Norway,WM,52.3,False,106,2449,3,7,8,1,100.0,True
+Iraq FB4,Iraq,FB,58.9,True,165,13631,3,6,14,1,100.0,True
+Belgium sub4,Belgium,FB,59.3,False,153,7700,3,6,12,1,100.0,True
+Ivory Coast sub4,Ivory Coast,FB,45.1,False,108,3016,3,6,12,1,100.0,True
+Cape Verde FB4,Cape Verde,FB,65.4,True,176,14425,3,5,15,1,100.0,True
+Haiti CM6,Haiti,CM,61.0,True,110,9082,3,5,7,1,100.0,True
+South Korea CM7,South Korea,CM,78.7,True,56,4445,3,5,7,1,100.0,True
+Tunisia FW11,Tunisia,FW,67.5,True,27,2238,3,5,2,1,100.0,True
+Japan sub6,Japan,CM,58.1,False,73,2009,3,5,4,1,100.0,True
+Conor Gallagher,England,CM,79.0,False,91,1264,3,5,2,1,100.0,True
+Norway WM9,Norway,WM,74.1,True,35,2900,3,4,3,1,100.0,True
+Austria CM7,Austria,CM,74.2,True,29,2299,3,4,6,1,100.0,True
+Senegal sub10,Senegal,FW,55.3,False,56,1933,3,4,2,1,100.0,True
+Qatar sub9,Qatar,WM,45,False,44,759,3,4,0,1,100.0,True
+South Korea CB2,South Korea,CB,72.2,True,161,13344,3,3,15,1,100.0,True
+Mexico sub2,Mexico,CB,52.3,False,170,11785,3,3,14,1,100.0,True
+Cape Verde FB5,Cape Verde,FB,63.0,True,134,10659,3,3,12,1,100.0,True
+Morocco CB2,Morocco,CB,79.3,True,131,10230,3,3,10,1,100.0,True
+Mexico WM10,Mexico,WM,78.2,True,47,3793,3,3,5,1,100.0,True
+Eduardo Camavinga,France,CM,84.0,False,39,2132,3,3,4,1,100.0,True
+Scotland sub7,Scotland,CAM,48.5,False,70,1683,3,3,3,1,100.0,True
+Sweden sub11,Sweden,FW,51.6,False,37,588,3,3,1,1,100.0,True
+South Korea CB3,South Korea,CB,75.6,True,134,10886,3,2,8,1,100.0,True
+Colombia FB5,Colombia,FB,81.8,True,113,8933,3,2,9,1,100.0,True
+Bosnia and Herzegovina CB3,Bosnia and Herzegovina,CB,67.5,True,87,7050,3,2,14,1,100.0,True
+Gonçalo Inácio,Portugal,CB,80.0,False,134,4030,3,2,5,1,100.0,True
+DR Congo CAM8,DR Congo,CAM,70.7,True,42,3365,3,2,5,1,100.0,True
+Austria CAM8,Austria,CAM,79.5,True,30,2329,3,2,4,1,100.0,True
+Cape Verde sub5,Cape Verde,CM,45,False,78,1309,3,2,1,1,100.0,True
+Cape Verde sub11,Cape Verde,FW,45,False,87,1273,3,2,4,1,100.0,True
+Serge Gnabry,Germany,WM,81.0,False,46,870,3,2,1,1,100.0,True
+Iran sub6,Iran,CM,45,False,53,839,3,2,0,1,100.0,True
+Egypt sub7,Egypt,CAM,45,False,37,539,3,2,4,1,100.0,True
+South Korea sub9,South Korea,WM,50.8,False,44,510,3,2,4,1,100.0,True
+Saudi Arabia sub12,Saudi Arabia,FW,45,False,26,351,3,2,1,1,100.0,True
+Ghana FB4,Ghana,FB,67.5,True,104,8622,3,1,10,1,100.0,True
+Marquinhos,Brazil,CB,87.0,True,76,6037,3,1,10,1,100.0,True
+South Africa WM9,South Africa,WM,66.2,True,42,3283,3,1,2,1,100.0,True
+Sweden FW11,Sweden,FW,71.0,True,23,1993,3,1,1,1,100.0,True
+Iraq FW11,Iraq,FW,63.9,True,19,1523,3,1,0,1,100.0,True
+Iran CAM8,Iran,CAM,73.6,True,13,1087,3,1,0,1,100.0,True
+Bosnia and Herzegovina sub9,Bosnia and Herzegovina,WM,45,False,55,1070,3,1,1,1,100.0,True
+Ecuador sub12,Ecuador,FW,49.2,False,37,731,3,1,1,1,100.0,True
+Qatar CB3,Qatar,CB,62.5,True,209,17339,3,0,19,1,100.0,True
+Iran sub2,Iran,CB,45,False,129,4555,3,0,10,1,100.0,True
+Algeria sub2,Algeria,CB,50.6,False,43,2871,3,0,1,1,100.0,True
+Mexico sub3,Mexico,CB,50.4,False,93,2300,3,0,5,1,100.0,True
+Uzbekistan CB2,Uzbekistan,CB,69.0,True,16,1297,3,0,0,1,100.0,True
+Uruguay sub8,Uruguay,WM,61.4,False,39,688,3,0,3,1,100.0,True
+Tunisia sub9,Tunisia,WM,45,False,19,432,3,0,1,1,100.0,True
+Senegal FB4,Senegal,FB,82.0,True,81,6589,2,10,13,1,100.0,True
+Bosnia and Herzegovina FB4,Bosnia and Herzegovina,FB,73.9,True,150,12678,2,8,15,1,100.0,True
+Panama CM7,Panama,CM,62.1,True,121,9843,2,8,8,1,100.0,True
+DR Congo sub4,DR Congo,FB,45,False,133,8103,2,7,4,1,100.0,True
+Ivory Coast FB4,Ivory Coast,FB,74.2,True,81,6691,2,7,9,1,100.0,True
+Panama CB3,Panama,CB,62.3,True,184,15265,2,5,23,1,100.0,True
+Haiti sub9,Haiti,WM,45,False,81,1578,2,5,4,1,100.0,True
+Iraq FB5,Iraq,FB,58.0,True,151,12423,2,4,15,1,100.0,True
+United States sub4,United States,FB,60.0,False,102,5578,2,4,8,1,100.0,True
+Marc Cucurella,Spain,FB,82.0,True,52,4133,2,4,7,1,100.0,True
+Morocco sub5,Morocco,CM,58.4,False,59,3035,2,4,1,1,100.0,True
+Haiti CAM8,Haiti,CAM,56.9,True,38,2993,2,4,7,1,100.0,True
+Casemiro,Brazil,CM,84.0,False,84,2678,2,4,3,1,100.0,True
+Scotland CAM8,Scotland,CAM,69.2,True,19,1537,2,4,1,1,100.0,True
+Uzbekistan sub7,Uzbekistan,CAM,45,False,47,1056,2,4,1,1,100.0,True
+Panama sub5,Panama,CM,45,False,31,501,2,4,2,1,100.0,True
+Turkey CB2,Turkey,CB,71.4,True,180,14671,2,3,17,1,100.0,True
+Ecuador sub3,Ecuador,CB,50.0,False,149,10187,2,3,15,1,100.0,True
+Egypt sub4,Egypt,FB,45.7,False,110,7145,2,3,9,1,100.0,True
+Diogo Dalot,Portugal,FB,81.0,False,120,4866,2,3,8,1,100.0,True
+Canada FB4,Canada,FB,78.2,True,51,4144,2,3,6,1,100.0,True
+Ghana WM9,Ghana,WM,72.5,True,42,3667,2,3,5,1,100.0,True
+Norway sub9,Norway,WM,54.6,False,77,3190,2,3,5,1,100.0,True
+Uzbekistan CM7,Uzbekistan,CM,62.7,True,33,2697,2,3,2,1,100.0,True
+Uzbekistan sub4,Uzbekistan,FB,45,False,91,2132,2,3,6,1,100.0,True
+Colombia WM9,Colombia,WM,81.8,True,17,1304,2,3,1,1,100.0,True
+South Korea sub6,South Korea,CM,54.2,False,65,925,2,3,3,1,100.0,True
+Ghana sub9,Ghana,WM,47.6,False,25,694,2,3,1,1,100.0,True
+Cristiano Ronaldo,Portugal,FW,86.0,True,8,620,2,3,0,1,100.0,True
+Scotland sub12,Scotland,FW,45,False,41,541,2,3,2,1,100.0,True
+Tunisia sub7,Tunisia,CAM,45,False,20,387,2,3,4,1,100.0,True
+New Zealand FB4,New Zealand,FB,58.7,True,102,8146,2,2,11,1,100.0,True
+DR Congo CM6,DR Congo,CM,70.6,True,53,4224,2,2,3,1,100.0,True
+Norway CB3,Norway,CB,73.3,True,45,3584,2,2,6,1,100.0,True
+Paraguay WM10,Paraguay,WM,68.6,True,44,3448,2,2,4,1,100.0,True
+João Cancelo,Portugal,FB,85.0,True,27,2142,2,2,3,1,100.0,True
+Tunisia WM10,Tunisia,WM,71.7,True,20,1696,2,2,1,1,100.0,True
+Jordan sub7,Jordan,CAM,45,False,85,1452,2,2,1,1,100.0,True
+Iraq sub7,Iraq,CAM,45,False,47,1037,2,2,1,1,100.0,True
+Turkey sub9,Turkey,WM,50.2,False,43,824,2,2,0,1,100.0,True
+Norway sub7,Norway,CAM,52.7,False,42,702,2,2,2,1,100.0,True
+United States sub6,United States,CM,59.3,False,43,698,2,2,1,1,100.0,True
+South Korea sub5,South Korea,CM,50.6,False,39,441,2,2,1,1,100.0,True
+South Africa sub5,South Africa,CM,45,False,39,400,2,2,2,1,100.0,True
+Senegal sub3,Senegal,CB,54.3,False,159,9968,2,1,14,1,100.0,True
+Qatar sub2,Qatar,CB,45,False,118,7545,2,1,7,1,100.0,True
+Belgium CB2,Belgium,CB,81.4,True,62,4938,2,1,6,1,100.0,True
+Austria sub3,Austria,CB,54.0,False,70,3787,2,1,3,1,100.0,True
+Jordan sub3,Jordan,CB,45,False,97,2657,2,1,8,1,100.0,True
+Austria FB4,Austria,FB,77.4,True,31,2511,2,1,4,1,100.0,True
+DR Congo WM9,DR Congo,WM,64.8,True,22,1724,2,1,0,1,100.0,True
+Algeria WM10,Algeria,WM,75.0,True,18,1578,2,1,0,1,100.0,True
+Japan sub3,Japan,CB,55.3,False,83,1320,2,1,7,1,100.0,True
+Switzerland sub11,Switzerland,FW,57.6,False,21,1234,2,1,1,1,100.0,True
+Curacao sub6,Curacao,CM,45,False,48,1075,2,1,3,1,100.0,True
+South Africa sub12,South Africa,FW,45,False,45,614,2,1,2,1,100.0,True
+Nico Williams,Spain,WM,87.0,True,7,520,2,1,0,1,100.0,True
+Panama sub8,Panama,WM,45,False,39,434,2,1,2,1,100.0,True
+Sweden sub10,Sweden,FW,48.9,False,15,344,2,1,0,1,100.0,True
+Iran sub8,Iran,WM,45,False,30,251,2,1,4,1,78.1,True
+Cape Verde CB3,Cape Verde,CB,68.7,True,117,9374,2,0,9,1,100.0,True
+Haiti CB2,Haiti,CB,56.1,True,70,5425,2,0,11,1,100.0,True
+Tunisia sub4,Tunisia,FB,45,False,88,5237,2,0,4,1,100.0,True
+Saudi Arabia sub3,Saudi Arabia,CB,45,False,102,4689,2,0,8,1,100.0,True
+John Stones,England,CB,84.0,True,55,4312,2,0,7,1,100.0,True
+DR Congo FB4,DR Congo,FB,63.5,True,36,2855,2,0,1,1,100.0,True
+Pau Cubarsí,Spain,CB,83.0,False,28,1291,2,0,3,1,100.0,True
+Uruguay sub3,Uruguay,CB,57.7,False,56,1110,2,0,1,1,100.0,True
+Ghana FW11,Ghana,FW,71.8,True,12,879,2,0,2,1,100.0,True
+Saudi Arabia WM9,Saudi Arabia,WM,67.4,True,11,875,2,0,0,1,100.0,True
+Teun Koopmeiners,Netherlands,CM,83.0,False,25,683,2,0,1,1,100.0,True
+New Zealand sub4,New Zealand,FB,45,False,24,409,2,0,1,1,100.0,True
+Curacao sub12,Curacao,FW,45,False,5,113,2,0,1,1,35.2,True
+Mexico sub4,Mexico,FB,51.4,False,111,4772,1,7,7,1,100.0,True
+Ibrahima Konaté,France,CB,84.0,False,140,11265,1,6,16,1,100.0,True
+United States FB5,United States,FB,80.5,True,54,4295,1,6,3,1,100.0,True
+Austria CB3,Austria,CB,72.9,True,180,14962,1,5,14,1,100.0,True
+Jordan sub4,Jordan,FB,45,False,144,6667,1,4,14,1,100.0,True
+Senegal sub2,Senegal,CB,52.5,False,164,4724,1,4,13,1,100.0,True
+Norway WM10,Norway,WM,76.0,True,36,2896,1,4,2,1,100.0,True
+Qatar sub8,Qatar,WM,45,False,80,1657,1,4,6,1,100.0,True
+New Zealand sub6,New Zealand,CM,45,False,21,191,1,4,0,1,59.4,True
+Qatar sub4,Qatar,FB,45,False,120,7065,1,3,10,1,100.0,True
+Paraguay CM7,Paraguay,CM,71.2,True,45,3590,1,3,4,1,100.0,True
+Jonathan Clauss,France,FB,80.0,True,12,907,1,3,3,1,100.0,True
+Morocco WM9,Morocco,WM,81.6,True,11,889,1,3,2,1,100.0,True
+Austria sub9,Austria,WM,50.7,False,26,480,1,3,1,1,100.0,True
+Algeria CB3,Algeria,CB,70.0,True,132,10521,1,2,15,1,100.0,True
+Joshua Kimmich,Germany,FB,87.0,True,74,5897,1,2,7,1,100.0,True
+Panama FB4,Panama,FB,62.2,True,62,4870,1,2,3,1,100.0,True
+Uruguay FB4,Uruguay,FB,82.6,True,35,2833,1,2,1,1,100.0,True
+Croatia CAM8,Croatia,CAM,76.1,True,21,1722,1,2,4,1,100.0,True
+Senegal CM7,Senegal,CM,80.5,True,20,1641,1,2,3,1,100.0,True
+Bosnia and Herzegovina WM9,Bosnia and Herzegovina,WM,66.1,True,18,1346,1,2,4,1,100.0,True
+Cape Verde CM7,Cape Verde,CM,66.2,True,14,1213,1,2,2,1,100.0,True
+Tunisia FB4,Tunisia,FB,71.4,True,14,1138,1,2,3,1,100.0,True
+Bradley Barcola,France,WM,81.0,False,15,102,1,2,0,1,31.7,True
+Panama CB2,Panama,CB,66.8,True,108,8820,1,1,13,1,100.0,True
+Jordan FB4,Jordan,FB,56.8,True,96,7876,1,1,9,1,100.0,True
+Turkey CB3,Turkey,CB,77.0,True,67,5502,1,1,4,1,100.0,True
+Sweden sub3,Sweden,CB,51.7,False,97,3442,1,1,9,1,100.0,True
+New Zealand sub3,New Zealand,CB,45,False,61,2852,1,1,1,1,100.0,True
+Ghana CB3,Ghana,CB,74.2,True,34,2730,1,1,7,1,100.0,True
+Bosnia and Herzegovina sub3,Bosnia and Herzegovina,CB,45,False,58,2544,1,1,3,1,100.0,True
+Mexico FB5,Mexico,FB,79.6,True,22,1692,1,1,1,1,100.0,True
+Algeria CM6,Algeria,CM,70.5,True,16,1312,1,1,1,1,100.0,True
+Donyell Malen,Netherlands,WM,82.0,True,15,1285,1,1,1,1,100.0,True
+Guilherme Arana,Brazil,FB,80.0,True,14,1116,1,1,1,1,100.0,True
+Uruguay sub6,Uruguay,CM,58.2,False,49,924,1,1,3,1,100.0,True
+South Africa sub4,South Africa,FB,45,False,47,821,1,1,1,1,100.0,True
+Uzbekistan WM9,Uzbekistan,WM,61.1,True,9,760,1,1,0,1,100.0,True
+Scotland CM7,Scotland,CM,73.5,True,7,582,1,1,2,1,100.0,True
+Canada WM10,Canada,WM,79.8,True,6,496,1,1,1,1,100.0,True
+Mexico sub5,Mexico,CM,50.5,False,28,462,1,1,0,1,100.0,True
+Czechia FB4,Czechia,FB,72.3,True,103,8170,1,0,8,1,100.0,True
+Cape Verde sub2,Cape Verde,CB,45,False,97,6876,1,0,7,1,100.0,True
+Ghana CB2,Ghana,CB,68.7,True,66,5319,1,0,4,1,100.0,True
+Curacao CB3,Curacao,CB,62.2,True,51,3999,1,0,5,1,100.0,True
+Morocco CB3,Morocco,CB,78.7,True,42,3226,1,0,3,1,100.0,True
+Iraq CB2,Iraq,CB,63.3,True,39,3181,1,0,1,1,100.0,True
+William Saliba,France,CB,86.0,False,44,2982,1,0,3,1,100.0,True
+Saudi Arabia CB3,Saudi Arabia,CB,69.7,True,30,2495,1,0,1,1,100.0,True
+Colombia CB2,Colombia,CB,78.0,True,29,2348,1,0,3,1,100.0,True
+Japan FB5,Japan,FB,76.7,True,27,2226,1,0,2,1,100.0,True
+Czechia CB2,Czechia,CB,70.6,True,28,2224,1,0,2,1,100.0,True
+Colombia FB4,Colombia,FB,85.0,True,21,1687,1,0,3,1,100.0,True
+Ghana CM7,Ghana,CM,68.4,True,20,1624,1,0,2,1,100.0,True
+Uruguay WM10,Uruguay,WM,81.8,True,19,1541,1,0,0,1,100.0,True
+Sweden sub2,Sweden,CB,49.4,False,72,1524,1,0,4,1,100.0,True
+Tunisia sub3,Tunisia,CB,45,False,34,1341,1,0,2,1,100.0,True
+Panama WM9,Panama,WM,62.9,True,14,1082,1,0,4,1,100.0,True
+Iran sub3,Iran,CB,45,False,60,1070,1,0,9,1,100.0,True
+Jordan CB3,Jordan,CB,60.8,True,11,922,1,0,1,1,100.0,True
+United States FB4,United States,FB,78.2,True,11,832,1,0,3,1,100.0,True
+Australia CM7,Australia,CM,71.4,True,10,740,1,0,1,1,100.0,True
+Paraguay CB3,Paraguay,CB,70.3,True,8,697,1,0,0,1,100.0,True
+Algeria FB5,Algeria,FB,71.8,True,9,654,1,0,1,1,100.0,True
+Théo Hernandez,France,FB,86.0,True,7,555,1,0,0,1,100.0,True
+Belgium sub2,Belgium,CB,56.1,False,29,479,1,0,0,1,100.0,True
+Australia sub2,Australia,CB,45.6,False,31,478,1,0,3,1,100.0,True
+Cape Verde WM9,Cape Verde,WM,63.5,True,6,469,1,0,0,1,100.0,True
+Tunisia sub12,Tunisia,FW,45,False,27,468,1,0,1,1,100.0,True
+Panama sub9,Panama,WM,45,False,18,285,1,0,0,1,88.7,True
+Canada sub7,Canada,CAM,56.6,False,19,244,1,0,0,1,75.9,True
+Mexico sub11,Mexico,FW,52.3,False,15,235,1,0,2,1,73.1,True
+Ivory Coast CM6,Ivory Coast,CM,70.3,True,3,206,1,0,0,1,64.1,True
+Jordan sub8,Jordan,WM,45,False,16,206,1,0,1,1,64.1,True
+Norway FB4,Norway,FB,77.5,True,116,9418,0,7,4,1,100.0,True
+Czechia sub3,Czechia,CB,45,False,174,4127,0,6,15,1,100.0,True
+Curacao CM6,Curacao,CM,61.7,True,70,5739,0,4,5,1,100.0,True
+Fermín López,Spain,CM,80.0,False,33,541,0,4,3,1,100.0,True
+Algeria sub4,Algeria,FB,48.7,False,86,2387,0,3,7,1,100.0,True
+Egypt FB5,Egypt,FB,70.8,True,27,2110,0,3,3,1,100.0,True
+Jordan sub5,Jordan,CM,45,False,66,1432,0,3,5,1,100.0,True
+Paraguay WM9,Paraguay,WM,68.3,True,16,1288,0,3,1,1,100.0,True
+Japan sub7,Japan,CAM,58.5,False,33,400,0,3,1,1,100.0,True
+Uzbekistan CB3,Uzbekistan,CB,62.3,True,104,8294,0,2,4,1,100.0,True
+Iran CB3,Iran,CB,71.8,True,102,8202,0,2,9,1,100.0,True
+Uzbekistan sub2,Uzbekistan,CB,45,False,101,7259,0,2,8,1,100.0,True
+Mexico CB2,Mexico,CB,78.8,True,51,4162,0,2,6,1,100.0,True
+Norway FB5,Norway,FB,76.5,True,42,3283,0,2,6,1,100.0,True
+Turkey sub4,Turkey,FB,52.9,False,87,2418,0,2,3,1,100.0,True
+Bosnia and Herzegovina FB5,Bosnia and Herzegovina,FB,67.8,True,30,2345,0,2,2,1,100.0,True
+Australia sub4,Australia,FB,47.2,False,63,971,0,2,2,1,100.0,True
+Tunisia CM7,Tunisia,CM,68.5,True,9,722,0,2,0,1,100.0,True
+Matheus Nunes,Portugal,CM,81.0,False,33,456,0,2,4,1,100.0,True
+Frenkie de Jong,Netherlands,CM,86.0,False,18,342,0,2,0,1,100.0,True
+Kobbie Mainoo,England,CM,82.0,False,5,209,0,2,2,1,65.0,True
+Norway CM7,Norway,CM,80.1,True,3,206,0,2,0,1,64.1,True
+Paraguay sub6,Paraguay,CM,45,False,6,129,0,2,0,1,40.1,True
+Uzbekistan sub8,Uzbekistan,WM,45,False,6,128,0,2,0,1,39.8,True
+Australia CB2,Australia,CB,70.3,True,84,6501,0,1,2,1,100.0,True
+Ivory Coast CB3,Ivory Coast,CB,72.2,True,51,4082,0,1,2,1,100.0,True
+South Africa sub3,South Africa,CB,45,False,80,3766,0,1,6,1,100.0,True
+Qatar CB2,Qatar,CB,63.2,True,45,3654,0,1,5,1,100.0,True
+South Africa FB5,South Africa,FB,60.8,True,40,3137,0,1,1,1,100.0,True
+Lisandro Martínez,Argentina,CB,85.0,True,36,2926,0,1,5,1,100.0,True
+Curacao sub4,Curacao,FB,45,False,75,2679,0,1,6,1,100.0,True
+Uruguay FB5,Uruguay,FB,81.3,True,24,1860,0,1,2,1,100.0,True
+Curacao CAM8,Curacao,CAM,63.7,True,22,1858,0,1,2,1,100.0,True
+Qatar WM9,Qatar,WM,58.8,True,21,1697,0,1,2,1,100.0,True
+New Zealand CM7,New Zealand,CM,57.1,True,14,1076,0,1,2,1,100.0,True
+Australia WM10,Australia,WM,72.7,True,11,914,0,1,2,1,100.0,True
+Austria FB5,Austria,FB,78.7,True,11,834,0,1,3,1,100.0,True
+Belgium WM9,Belgium,WM,78.1,True,11,810,0,1,1,1,100.0,True
+Iran CM6,Iran,CM,70.2,True,7,572,0,1,1,1,100.0,True
+Curacao sub3,Curacao,CB,45,False,32,494,0,1,0,1,100.0,True
+Turkey sub8,Turkey,WM,50.5,False,27,377,0,1,0,1,100.0,True
+Mexico CAM8,Mexico,CAM,79.1,True,4,360,0,1,0,1,100.0,True
+Qatar sub3,Qatar,CB,45,False,18,306,0,1,1,1,95.2,True
+Kingsley Coman,France,WM,83.0,False,16,274,0,1,2,1,85.2,True
+Dani Carvajal,Spain,FB,86.0,True,3,270,0,1,0,1,84.0,True
+Jeremie Frimpong,Netherlands,FB,82.0,False,10,185,0,1,0,1,57.6,True
+Sweden sub6,Sweden,CM,48.6,False,13,127,0,1,0,1,39.5,True
+South Africa sub2,South Africa,CB,45,False,102,5543,0,0,5,1,100.0,True
+Mexico CB3,Mexico,CB,73.1,True,49,4010,0,0,4,1,100.0,True
+Ghana sub2,Ghana,CB,47.7,False,55,3664,0,0,3,1,100.0,True
+Jordan FB5,Jordan,FB,56.4,True,44,3506,0,0,2,1,100.0,True
+New Zealand sub2,New Zealand,CB,45,False,60,2930,0,0,3,1,100.0,True
+Saudi Arabia sub2,Saudi Arabia,CB,45,False,55,2660,0,0,2,1,100.0,True
+Ecuador FB4,Ecuador,FB,73.0,True,34,2657,0,0,0,1,100.0,True
+Algeria CB2,Algeria,CB,73.8,True,32,2443,0,0,2,1,100.0,True
+Senegal CB3,Senegal,CB,80.1,True,23,1858,0,0,3,1,100.0,True
+Ghana sub4,Ghana,FB,46.2,False,48,1750,0,0,3,1,100.0,True
+Jonathan Tah,Germany,CB,82.0,True,18,1547,0,0,0,1,100.0,True
+Croatia FB5,Croatia,FB,80.1,True,19,1529,0,0,0,1,100.0,True
+Qatar CM6,Qatar,CM,64.2,True,14,1164,0,0,0,1,100.0,True
+Egypt CM6,Egypt,CM,70.0,True,12,1037,0,0,1,1,100.0,True
+Haiti FB5,Haiti,FB,56.4,True,14,1030,0,0,1,1,100.0,True
+Japan FB4,Japan,FB,75.2,True,11,926,0,0,0,1,100.0,True
+Croatia FB4,Croatia,FB,81.8,True,12,906,0,0,1,1,100.0,True
+Tunisia FB5,Tunisia,FB,70.9,True,10,864,0,0,1,1,100.0,True
+Paraguay CB2,Paraguay,CB,72.5,True,10,854,0,0,1,1,100.0,True
+Iraq CAM8,Iraq,CAM,60.7,True,10,740,0,0,0,1,100.0,True
+Egypt WM9,Egypt,WM,69.5,True,8,636,0,0,1,1,100.0,True
+Australia sub5,Australia,CM,45.5,False,33,562,0,0,2,1,100.0,True
+Switzerland WM10,Switzerland,WM,77.9,True,7,550,0,0,0,1,100.0,True
+Curacao sub2,Curacao,CB,45,False,49,532,0,0,1,1,100.0,True
+Iraq sub5,Iraq,CM,45,False,25,439,0,0,1,1,100.0,True
+Austria FW11,Austria,FW,78.3,True,5,414,0,0,0,1,100.0,True
+Saudi Arabia sub4,Saudi Arabia,FB,45,False,23,412,0,0,2,1,100.0,True
+Turkey sub3,Turkey,CB,52.7,False,19,404,0,0,1,1,100.0,True
+Uzbekistan sub9,Uzbekistan,WM,45,False,14,389,0,0,0,1,100.0,True
+Haiti sub2,Haiti,CB,45,False,27,381,0,0,3,1,100.0,True
+United States WM10,United States,WM,76.1,True,4,326,0,0,1,1,100.0,True
+DR Congo FB5,DR Congo,FB,68.0,True,4,313,0,0,0,1,97.4,True
+Bosnia and Herzegovina sub2,Bosnia and Herzegovina,CB,45,False,18,307,0,0,0,1,95.5,True
+United States FW11,United States,FW,76.3,True,3,261,0,0,0,1,81.2,True
+Algeria CM7,Algeria,CM,76.6,True,3,226,0,0,0,1,70.3,True
+Bosnia and Herzegovina sub4,Bosnia and Herzegovina,FB,45,False,22,203,0,0,1,1,63.2,True
+Waldemar Anton,Germany,CB,79.0,False,19,199,0,0,0,1,61.9,True
+Jordan sub9,Jordan,WM,45,False,19,161,0,0,1,1,50.1,True
+Belgium FB4,Belgium,FB,79.8,True,2,160,0,0,1,1,49.8,True
+Lucas Hernandez,France,FB,82.0,False,11,149,0,0,0,1,46.4,True
+DR Congo sub7,DR Congo,CAM,45,False,10,136,0,0,0,1,42.3,True
+Iraq sub11,Iraq,FW,45,False,7,95,0,0,0,1,29.6,True
+Mexico sub7,Mexico,CAM,49.0,False,5,90,0,0,0,1,28.0,True
+South Africa CM7,South Africa,CM,61.2,True,1,90,0,0,0,1,28.0,True
+Croatia sub7,Croatia,CAM,57.2,False,2,85,0,0,0,1,26.4,True
+Australia sub3,Australia,CB,48.0,False,8,82,0,0,1,1,25.5,True
+Austria sub4,Austria,FB,53.7,False,2,71,0,0,0,1,22.1,True
+Egypt sub2,Egypt,CB,45,False,7,42,0,0,1,1,13.1,True
+Benjamin Henrichs,Germany,FB,78.0,False,3,23,0,0,0,1,7.2,True
+Ghana sub11,Ghana,FW,45,False,3,23,0,0,0,1,7.2,True
+New Zealand sub8,New Zealand,WM,45,False,6,10,0,0,0,1,3.1,True
