@@ -28,6 +28,32 @@ Open `http://localhost:5173`.
 
 The server creates the needed tables automatically from `db/schema.sql`.
 
+## Host On Netlify
+
+1. Push this project to GitHub.
+2. In Netlify, choose **Add new site** then **Import an existing project**.
+3. Connect the GitHub repo.
+4. Use these settings:
+
+```bash
+Build command: npm run build
+Publish directory: dist
+Functions directory: netlify/functions
+```
+
+5. Add these Netlify environment variables:
+
+```bash
+TURSO_DATABASE_URL=libsql://your-database-name-your-org.turso.io
+TURSO_AUTH_TOKEN=your_turso_auth_token
+ADMIN_SETTLE_CODE=choose-a-private-admin-code
+```
+
+6. Deploy.
+
+The `netlify.toml` file already routes `/api/*` to the Netlify Function and all other
+browser routes to the Vite app.
+
 ## Stored Data
 
 - `users`: display name, email, total points
@@ -39,7 +65,7 @@ The server creates the needed tables automatically from `db/schema.sql`.
 When the World Cup winner is known, call:
 
 ```bash
-curl -X POST http://localhost:5173/api/settle-winner \
+curl -X POST https://your-site-name.netlify.app/api/settle-winner \
   -H "Content-Type: application/json" \
   -d "{\"teamName\":\"Argentina\",\"adminCode\":\"choose-a-private-admin-code\"}"
 ```

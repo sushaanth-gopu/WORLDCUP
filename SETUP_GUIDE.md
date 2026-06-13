@@ -70,3 +70,36 @@ curl -X POST http://localhost:5173/api/settle-winner \
 ```
 
 Every correct user gets the projected points from their saved pick.
+
+## 6. Host On Netlify
+
+1. Put this project on GitHub.
+2. Go to `https://netlify.com`.
+3. Choose **Add new site**.
+4. Choose **Import an existing project**.
+5. Pick your GitHub repository.
+6. Netlify should read `netlify.toml` automatically. If it asks, use:
+
+```bash
+Build command: npm run build
+Publish directory: dist
+Functions directory: netlify/functions
+```
+
+7. Before deploying, add these environment variables in Netlify:
+
+```bash
+TURSO_DATABASE_URL=libsql://predicta26-your-org.turso.io
+TURSO_AUTH_TOKEN=your_turso_auth_token
+ADMIN_SETTLE_CODE=choose-a-private-admin-code
+```
+
+8. Click **Deploy**.
+
+Your hosted API will use the same routes as local development:
+
+```bash
+https://your-site-name.netlify.app/api/login
+https://your-site-name.netlify.app/api/picks
+https://your-site-name.netlify.app/api/settle-winner
+```
