@@ -14,9 +14,583 @@
       href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Space+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <style>
+      :root {
+        --bg: #08090d;
+        --surface: #11131a;
+        --surface-strong: #181b25;
+        --line: #252a36;
+        --text: #f7f8fb;
+        --muted: #9aa3b2;
+        --green: #24f07a;
+        --blue: #37c7ff;
+        --gold: #ffd166;
+        --danger: #ff6b6b;
+        --font-mono: "Space Mono", monospace;
+        --font-display: "Barlow Condensed", sans-serif;
+        --font-sans: "Plus Jakarta Sans", sans-serif;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+        min-height: 100vh;
+        background:
+          linear-gradient(135deg, rgba(36, 240, 122, 0.1), transparent 32rem),
+          radial-gradient(circle at 80% 10%, rgba(55, 199, 255, 0.14), transparent 26rem),
+          var(--bg);
+        color: var(--text);
+        font-family: var(--font-sans);
+        -webkit-font-smoothing: antialiased;
+      }
+
+      button, input, select { font: inherit; }
+      button { cursor: pointer; }
+      button:disabled { cursor: wait; opacity: 0.7; }
+
+      .login-screen {
+        display: grid;
+        min-height: 100vh;
+        place-items: center;
+        padding: 2rem;
+      }
+
+      .login-panel,
+      .summary-grid article,
+      .pick-panel,
+      .team-board {
+        background: rgba(17, 19, 26, 0.92);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+      }
+
+      .login-panel {
+        width: min(100%, 520px);
+        padding: 2rem;
+        box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+      }
+
+      .eyebrow {
+        margin: 0 0 0.75rem;
+        color: var(--green);
+        font-family: var(--font-mono);
+        font-size: 0.78rem;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      h1, h2 {
+        margin: 0;
+        font-family: var(--font-display);
+        line-height: 0.95;
+        letter-spacing: 0;
+      }
+
+      h1 { max-width: 760px; font-size: clamp(3rem, 12vw, 6rem); }
+      h2 { font-size: clamp(2.4rem, 7vw, 4.4rem); }
+
+      .intro {
+        margin: 1rem 0 0;
+        color: var(--muted);
+        line-height: 1.65;
+      }
+
+      .login-form,
+      .pick-panel {
+        display: grid;
+        gap: 1rem;
+      }
+
+      .login-form { margin-top: 1.75rem; }
+
+      label {
+        display: grid;
+        gap: 0.45rem;
+        color: var(--muted);
+        font-size: 0.85rem;
+        font-weight: 700;
+      }
+
+      input, select {
+        width: 100%;
+        min-height: 3rem;
+        color: var(--text);
+        background: #0b0d12;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        padding: 0.8rem 0.9rem;
+        outline: none;
+      }
+
+      input:focus, select:focus {
+        border-color: var(--green);
+        box-shadow: 0 0 0 3px rgba(36, 240, 122, 0.16);
+      }
+
+      .primary-button {
+        min-height: 3.1rem;
+        color: #041108;
+        background: var(--green);
+        border: 0;
+        border-radius: 6px;
+        padding: 0.9rem 1.2rem;
+        font-family: var(--font-mono);
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .app-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 1.2rem clamp(1rem, 4vw, 2.5rem);
+        background: rgba(8, 9, 13, 0.78);
+        border-bottom: 1px solid var(--line);
+        backdrop-filter: blur(14px);
+        position: sticky;
+        top: 0;
+        z-index: 5;
+      }
+
+      .app-header h1 { font-size: clamp(2rem, 5vw, 3.4rem); }
+
+      .profile-badge {
+        max-width: 16rem;
+        overflow: hidden;
+        color: #061209;
+        background: var(--green);
+        border-radius: 999px;
+        padding: 0.6rem 0.9rem;
+        font-family: var(--font-mono);
+        font-size: 0.82rem;
+        font-weight: 700;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .dashboard {
+        width: min(1180px, 100%);
+        margin: 0 auto;
+        padding: clamp(1rem, 4vw, 2.5rem);
+      }
+
+      .summary-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      .summary-grid article { padding: 1.1rem; }
+
+      .summary-grid span,
+      .payout-card span {
+        display: block;
+        color: var(--muted);
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .summary-grid strong {
+        display: block;
+        margin-top: 0.35rem;
+        font-family: var(--font-display);
+        font-size: 2rem;
+      }
+
+      .pick-layout {
+        display: grid;
+        grid-template-columns: minmax(300px, 420px) 1fr;
+        gap: 1rem;
+        align-items: start;
+      }
+
+      .pick-panel {
+        padding: 1.25rem;
+        position: sticky;
+        top: 7rem;
+      }
+
+      .payout-card {
+        padding: 1rem;
+        background: #0b0d12;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+      }
+
+      .payout-card strong {
+        display: block;
+        color: var(--gold);
+        font-family: var(--font-display);
+        font-size: 4rem;
+        line-height: 1;
+      }
+
+      .payout-card small,
+      .team-row small {
+        color: var(--muted);
+      }
+
+      .saved-message,
+      .model-note {
+        margin: 0;
+        color: var(--blue);
+        font-weight: 700;
+      }
+
+      .model-note {
+        margin-top: 0.75rem;
+        font-size: 0.85rem;
+        line-height: 1.5;
+      }
+
+      .form-message {
+        margin: 0;
+        color: var(--danger);
+        font-weight: 700;
+      }
+
+      .team-board {
+        display: grid;
+        gap: 0.65rem;
+        padding: 0.75rem;
+      }
+
+      .team-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        width: 100%;
+        min-height: 4.6rem;
+        color: var(--text);
+        background: #0c0e14;
+        border: 1px solid transparent;
+        border-radius: 6px;
+        padding: 0.9rem 1rem;
+        text-align: left;
+      }
+
+      .team-row:hover,
+      .team-row.active {
+        border-color: var(--green);
+        background: var(--surface-strong);
+      }
+
+      .team-row strong,
+      .team-row small { display: block; }
+
+      .odds {
+        min-width: 5.5rem;
+        text-align: right;
+        color: var(--green);
+        font-family: var(--font-mono);
+        font-weight: 700;
+      }
+
+      @media (max-width: 820px) {
+        .app-header,
+        .pick-layout { grid-template-columns: 1fr; }
+        .app-header { display: grid; }
+        .summary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .pick-panel { position: static; }
+      }
+
+      @media (max-width: 520px) {
+        .login-screen,
+        .dashboard { padding: 1rem; }
+        .login-panel,
+        .pick-panel { padding: 1rem; }
+        .summary-grid { grid-template-columns: 1fr; }
+        .summary-grid strong { font-size: 1.55rem; }
+        .team-row {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+        .odds { text-align: left; }
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      const root = document.getElementById("root");
+      const defaultTeams = [
+        { name: "Argentina", region: "CONMEBOL", chance: 18, rating: 94, form: "Elite attack" },
+        { name: "France", region: "UEFA", chance: 17, rating: 93, form: "Deep squad" },
+        { name: "Brazil", region: "CONMEBOL", chance: 14, rating: 91, form: "High ceiling" },
+        { name: "England", region: "UEFA", chance: 12, rating: 89, form: "Balanced core" },
+        { name: "Spain", region: "UEFA", chance: 9, rating: 86, form: "Possession edge" },
+        { name: "Portugal", region: "UEFA", chance: 8, rating: 85, form: "Clinical finishers" },
+        { name: "Netherlands", region: "UEFA", chance: 6, rating: 82, form: "Compact shape" },
+        { name: "Germany", region: "UEFA", chance: 5, rating: 80, form: "Tournament DNA" },
+        { name: "Uruguay", region: "CONMEBOL", chance: 4, rating: 77, form: "Pressing power" },
+        { name: "USA", region: "CONCACAF", chance: 3, rating: 72, form: "Home lift" },
+        { name: "Mexico", region: "CONCACAF", chance: 2, rating: 68, form: "Crowd energy" },
+        { name: "Japan", region: "AFC", chance: 2, rating: 67, form: "Upset threat" }
+      ];
+
+      let state = {
+        user: null,
+        teams: defaultTeams,
+        selectedTeam: defaultTeams[0],
+        modelSnapshot: null,
+        message: "",
+        busy: false
+      };
+
+      function calculatePayout(chance) {
+        return Math.round((100 / Math.max(0.1, chance)) * 10);
+      }
+
+      function escapeHtml(value) {
+        return String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+      }
+
+      async function apiRequest(url, options = {}) {
+        const response = await fetch(url, {
+          headers: { "Content-Type": "application/json" },
+          ...options
+        });
+        const text = await response.text();
+        const payload = text ? JSON.parse(text) : {};
+
+        if (!response.ok) {
+          throw new Error(payload.error || "Something went wrong.");
+        }
+
+        return payload;
+      }
+
+      function sortTeams() {
+        return [...state.teams].sort((a, b) => b.chance - a.chance);
+      }
+
+      function pickTeamByName(name) {
+        return state.teams.find((team) => team.name === name) || state.teams[0];
+      }
+
+      function setState(next) {
+        state = { ...state, ...next };
+        render();
+      }
+
+      function renderLogin() {
+        root.innerHTML = `
+          <main class="login-screen">
+            <section class="login-panel" aria-labelledby="login-title">
+              <p class="eyebrow">Private World Cup 2026 Pool</p>
+              <h1 id="login-title">Predict the winner. Beat the market.</h1>
+              <p class="intro">
+                Favorites pay fewer points. Long shots pay more. Sign in to lock a team and see
+                the reward before the tournament starts.
+              </p>
+              <form class="login-form" id="login-form">
+                <label>
+                  Display name
+                  <input id="display-name" placeholder="Alex Morgan" autocomplete="name" />
+                </label>
+                <label>
+                  Email
+                  <input id="email" type="email" placeholder="you@example.com" autocomplete="email" />
+                </label>
+                <button class="primary-button" type="submit" ${state.busy ? "disabled" : ""}>
+                  ${state.busy ? "Entering..." : "Enter Pool"}
+                </button>
+                ${state.message ? `<p class="form-message">${escapeHtml(state.message)}</p>` : ""}
+              </form>
+            </section>
+          </main>
+        `;
+
+        document.getElementById("login-form").addEventListener("submit", handleLogin);
+      }
+
+      function renderDashboard() {
+        const teams = sortTeams();
+        const favorite = teams[0];
+        const highestReturn = [...teams].sort((a, b) => a.chance - b.chance)[0];
+        const selected = state.selectedTeam;
+        const projectedPoints = calculatePayout(selected.chance);
+
+        root.innerHTML = `
+          <header class="app-header">
+            <div>
+              <p class="eyebrow">PREDICTA26</p>
+              <h1>Winner Pick Market</h1>
+            </div>
+            <div class="profile-badge">${escapeHtml(state.user.displayName)}</div>
+          </header>
+          <main class="dashboard">
+            <section class="summary-grid" aria-label="Pool summary">
+              <article><span>Favorite</span><strong>${escapeHtml(favorite.name)}</strong></article>
+              <article><span>Highest Return</span><strong>${escapeHtml(highestReturn.name)}</strong></article>
+              <article><span>Your Pick</span><strong>${state.user.pick ? escapeHtml(state.user.pick.teamName) : "Not saved"}</strong></article>
+              <article><span>Model Feed</span><strong>${state.modelSnapshot ? "Live" : "Default"}</strong></article>
+            </section>
+            <section class="pick-layout">
+              <form class="pick-panel" id="pick-form">
+                <div>
+                  <p class="eyebrow">Choose Champion</p>
+                  <h2>${escapeHtml(selected.name)}</h2>
+                  <p class="intro">
+                    ${selected.chance.toFixed(1)}% win probability. If they win, this pick returns
+                    <strong>${projectedPoints} points</strong>.
+                  </p>
+                  ${state.modelSnapshot ? `<p class="model-note">Updated from ${escapeHtml(state.modelSnapshot.source)} after ${(state.modelSnapshot.simulations || "unknown").toLocaleString()} simulations.</p>` : ""}
+                </div>
+                <label>
+                  Winning team
+                  <select id="team-select">
+                    ${teams.map((team) => `
+                      <option value="${escapeHtml(team.name)}" ${team.name === selected.name ? "selected" : ""}>
+                        ${escapeHtml(team.name)} - ${team.chance.toFixed(1)}% chance - ${calculatePayout(team.chance)} pts
+                      </option>
+                    `).join("")}
+                  </select>
+                </label>
+                <div class="payout-card">
+                  <span>Potential Return</span>
+                  <strong>${projectedPoints}</strong>
+                  <small>points if ${escapeHtml(selected.name)} wins</small>
+                </div>
+                <button class="primary-button" type="submit" ${state.busy ? "disabled" : ""}>
+                  ${state.busy ? "Saving..." : "Save Pick"}
+                </button>
+                ${state.message ? `<p class="saved-message">${escapeHtml(state.message)}</p>` : ""}
+                ${state.user.pick && !state.message ? `<p class="saved-message">Current database pick: ${escapeHtml(state.user.pick.teamName)} for ${state.user.pick.projectedPoints} points.</p>` : ""}
+              </form>
+              <section class="team-board" aria-label="Team odds board">
+                ${teams.map((team) => `
+                  <button class="team-row ${team.name === selected.name ? "active" : ""}" type="button" data-team="${escapeHtml(team.name)}">
+                    <span>
+                      <strong>${escapeHtml(team.name)}</strong>
+                      <small>${escapeHtml(team.region)} - ${escapeHtml(team.form)}</small>
+                    </span>
+                    <span class="odds">
+                      ${team.chance.toFixed(1)}%
+                      <small>${calculatePayout(team.chance)} pts</small>
+                    </span>
+                  </button>
+                `).join("")}
+              </section>
+            </section>
+          </main>
+        `;
+
+        document.getElementById("pick-form").addEventListener("submit", handlePick);
+        document.getElementById("team-select").addEventListener("change", (event) => {
+          setState({ selectedTeam: pickTeamByName(event.target.value), message: "" });
+        });
+        document.querySelectorAll("[data-team]").forEach((button) => {
+          button.addEventListener("click", () => {
+            setState({ selectedTeam: pickTeamByName(button.dataset.team), message: "" });
+          });
+        });
+      }
+
+      function render() {
+        if (state.user) renderDashboard();
+        else renderLogin();
+      }
+
+      async function handleLogin(event) {
+        event.preventDefault();
+        const displayName = document.getElementById("display-name").value.trim();
+        const email = document.getElementById("email").value.trim();
+
+        if (!displayName || !email) {
+          setState({ message: "Enter your name and email." });
+          return;
+        }
+
+        setState({ busy: true, message: "" });
+
+        try {
+          const { user } = await apiRequest("/api/login", {
+            method: "POST",
+            body: JSON.stringify({ displayName, email })
+          });
+          localStorage.setItem("predicta26_user_id", user.id);
+          setState({
+            user,
+            selectedTeam: user.pick ? pickTeamByName(user.pick.teamName) : state.selectedTeam,
+            busy: false
+          });
+        } catch (error) {
+          setState({ busy: false, message: error.message || "Login failed." });
+        }
+      }
+
+      async function handlePick(event) {
+        event.preventDefault();
+        if (!state.user) return;
+
+        setState({ busy: true, message: "" });
+
+        try {
+          const { user } = await apiRequest("/api/picks", {
+            method: "POST",
+            body: JSON.stringify({ userId: state.user.id, teamName: state.selectedTeam.name })
+          });
+          setState({
+            user,
+            busy: false,
+            message: `Pick saved: ${state.selectedTeam.name} for ${calculatePayout(state.selectedTeam.chance)} points.`
+          });
+        } catch (error) {
+          setState({ busy: false, message: error.message || "Could not save pick." });
+        }
+      }
+
+      async function loadModelFeed() {
+        try {
+          const { snapshot, teams } = await apiRequest("/api/model/latest");
+          if (!Array.isArray(teams) || !teams.length) return;
+
+          const liveTeams = teams.map((team) => ({
+            name: team.teamName,
+            region: "MODEL",
+            chance: Math.max(0.1, Number(team.winProbability)),
+            rating: team.rating ? Math.round(team.rating) : Math.round(60 + Number(team.winProbability) * 2),
+            form: "Live model feed"
+          }));
+
+          state.teams = liveTeams;
+          state.modelSnapshot = snapshot;
+          state.selectedTeam = pickTeamByName(state.selectedTeam.name);
+          render();
+        } catch {
+          state.modelSnapshot = null;
+        }
+      }
+
+      async function restoreUser() {
+        const savedUserId = localStorage.getItem("predicta26_user_id");
+        if (!savedUserId) return;
+
+        try {
+          const { user } = await apiRequest(`/api/users/${savedUserId}`);
+          state.user = user;
+          state.selectedTeam = user.pick ? pickTeamByName(user.pick.teamName) : state.selectedTeam;
+          render();
+        } catch {
+          localStorage.removeItem("predicta26_user_id");
+        }
+      }
+
+      render();
+      loadModelFeed();
+      restoreUser();
+    </script>
   </body>
 </html>

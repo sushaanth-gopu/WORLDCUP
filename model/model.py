@@ -2922,6 +2922,8 @@ def main(n_sims=20_000, use_live=True, show_groups=True,
         print(f"  PREDICTED CHAMPION: {t}  ({p*100:.1f}% probability)")
         print(f"{'='*64}\n")
 
+    return results
+
 
 if __name__ == "__main__":
     import sys

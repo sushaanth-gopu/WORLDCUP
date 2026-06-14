@@ -4,8 +4,10 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   getHealth,
+  getLatestModelSnapshot,
   getUserWithPick,
   loginUser,
+  publishModelSnapshot,
   savePick,
   settleWinner,
 } from './lib/predicta-api.mjs';
@@ -55,6 +57,22 @@ app.get('/api/users/:id', async (request, response, next) => {
 app.post('/api/picks', async (request, response, next) => {
   try {
     sendApiResult(response, await savePick(request.body));
+  } catch (error) {
+    next(error);
+  }
+});
+
+app.get('/api/model/latest', async (_request, response, next) => {
+  try {
+    sendApiResult(response, await getLatestModelSnapshot());
+  } catch (error) {
+    next(error);
+  }
+});
+
+app.post('/api/model/snapshot', async (request, response, next) => {
+  try {
+    sendApiResult(response, await publishModelSnapshot(request.body));
   } catch (error) {
     next(error);
   }

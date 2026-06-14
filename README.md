@@ -47,6 +47,7 @@ Functions directory: netlify/functions
 TURSO_DATABASE_URL=libsql://your-database-name-your-org.turso.io
 TURSO_AUTH_TOKEN=your_turso_auth_token
 ADMIN_SETTLE_CODE=choose-a-private-admin-code
+ADMIN_MODEL_CODE=choose-a-private-model-code
 ```
 
 6. Deploy.
@@ -59,6 +60,51 @@ browser routes to the Vite app.
 - `users`: display name, email, total points
 - `winner_picks`: each user's active winning-team pick and projected payout
 - `points_ledger`: point awards after settlement
+- `model_runs`: every published model snapshot
+- `model_team_probabilities`: live win probabilities and payouts from the model
+
+## Model API
+
+The Python model should pull live match data itself, run the simulation, then publish
+the latest probabilities to the hosted app:
+
+```bash
+PREDICTA_API_BASE_URL=https://your-site-name.netlify.app \
+ADMIN_MODEL_CODE=choose-a-private-model-code \
+MODEL_SIMULATIONS=20000 \
+python model/publish_snapshot.py
+```
+
+The frontend reads:
+
+```bash
+GET /api/model/latest
+```
+
+The model publishes:
+
+```bash
+POST /api/model/snapshot
+```
+
+Example payload:
+
+```json
+{
+  "adminCode": "choose-a-private-model-code",
+  "source": "python-model",
+  "simulations": 20000,
+  "teams": [
+    {
+      "teamName": "France",
+      "winProbability": 17.4,
+      "finalProbability": 29.1,
+      "semiProbability": 44.8,
+      "rating": 1842.5
+    }
+  ]
+}
+```
 
 ## Settle The Winner
 

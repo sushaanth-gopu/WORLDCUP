@@ -22,7 +22,21 @@ type User = {
   } | null;
 };
 
-const teams: Team[] = [
+type ModelSnapshot = {
+  id: string;
+  source: string;
+  simulations: number | null;
+  createdAt: string;
+} | null;
+
+type ModelTeam = {
+  teamName: string;
+  winProbability: number;
+  projectedPoints: number;
+  rating?: number | null;
+};
+
+const defaultTeams: Team[] = [
   { name: 'Argentina', region: 'CONMEBOL', chance: 18, rating: 94, form: 'Elite attack' },
   { name: 'France', region: 'UEFA', chance: 17, rating: 93, form: 'Deep squad' },
   { name: 'Brazil', region: 'CONMEBOL', chance: 14, rating: 91, form: 'High ceiling' },
@@ -39,6 +53,16 @@ const teams: Team[] = [
 
 function calculatePayout(chance: number) {
   return Math.round((100 / chance) * 10);
+}
+
+function teamFromModel(item: ModelTeam): Team {
+  return {
+    name: item.teamName,
+    region: 'MODEL',
+    chance: Math.max(0.1, item.winProbability),
+    rating: item.rating ? Math.round(item.rating) : Math.round(60 + item.winProbability * 2),
+    form: 'Live model feed',
+  };
 }
 
 async function apiRequest<T>(url: string, options?: RequestInit): Promise<T> {
@@ -59,12 +83,33 @@ function App() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [user, setUser] = useState<User | null>(null);
-  const [selectedTeam, setSelectedTeam] = useState<Team>(teams[0]);
+  const [modelSnapshot, setModelSnapshot] = useState<ModelSnapshot>(null);
+  const [modelTeams, setModelTeams] = useState<Team[]>(defaultTeams);
+  const [selectedTeam, setSelectedTeam] = useState<Team>(defaultTeams[0]);
   const [isBusy, setIsBusy] = useState(false);
   const [message, setMessage] = useState('');
 
-  const sortedTeams = useMemo(() => [...teams].sort((a, b) => b.chance - a.chance), []);
+  const sortedTeams = useMemo(() => [...modelTeams].sort((a, b) => b.chance - a.chance), [modelTeams]);
+  const favorite = sortedTeams[0];
+  const highestReturn = [...sortedTeams].sort((a, b) => a.chance - b.chance)[0];
   const projectedPoints = calculatePayout(selectedTeam.chance);
+
+  useEffect(() => {
+    apiRequest<{ snapshot: ModelSnapshot; teams: ModelTeam[] }>('/api/model/latest')
+      .then(({ snapshot, teams }) => {
+        const liveTeams = teams.map(teamFromModel);
+        if (!liveTeams.length) return;
+
+        setModelSnapshot(snapshot);
+        setModelTeams(liveTeams);
+        setSelectedTeam((current) => (
+          liveTeams.find((team) => team.name === current.name) || liveTeams[0]
+        ));
+      })
+      .catch(() => {
+        setModelSnapshot(null);
+      });
+  }, []);
 
   useEffect(() => {
     const savedUserId = window.localStorage.getItem('predicta26_user_id');
@@ -78,12 +123,12 @@ function App() {
         setEmail(restoredUser.email);
 
         if (restoredUser.pick) {
-          const team = teams.find((item) => item.name === restoredUser.pick?.teamName);
+          const team = modelTeams.find((item) => item.name === restoredUser.pick?.teamName);
           if (team) setSelectedTeam(team);
         }
       })
       .catch(() => window.localStorage.removeItem('predicta26_user_id'));
-  }, []);
+  }, [modelTeams]);
 
   async function handleLogin(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -102,7 +147,7 @@ function App() {
       window.localStorage.setItem('predicta26_user_id', loggedInUser.id);
 
       if (loggedInUser.pick) {
-        const team = teams.find((item) => item.name === loggedInUser.pick?.teamName);
+        const team = modelTeams.find((item) => item.name === loggedInUser.pick?.teamName);
         if (team) setSelectedTeam(team);
       }
     } catch (error) {
@@ -191,19 +236,19 @@ function App() {
         <section className="summary-grid" aria-label="Pool summary">
           <article>
             <span>Favorite</span>
-            <strong>Argentina</strong>
+            <strong>{favorite?.name || 'Loading'}</strong>
           </article>
           <article>
             <span>Highest Return</span>
-            <strong>Japan / Mexico</strong>
+            <strong>{highestReturn?.name || 'Loading'}</strong>
           </article>
           <article>
             <span>Your Pick</span>
             <strong>{user.pick ? user.pick.teamName : 'Not saved'}</strong>
           </article>
           <article>
-            <span>Total Points</span>
-            <strong>{user.pointsTotal}</strong>
+            <span>Model Feed</span>
+            <strong>{modelSnapshot ? 'Live' : 'Default'}</strong>
           </article>
         </section>
 
@@ -213,9 +258,15 @@ function App() {
               <p className="eyebrow">Choose Champion</p>
               <h2>{selectedTeam.name}</h2>
               <p className="intro">
-                {selectedTeam.chance}% win probability. If they win, this pick returns{' '}
+                {selectedTeam.chance.toFixed(1)}% win probability. If they win, this pick returns{' '}
                 <strong>{projectedPoints} points</strong>.
               </p>
+              {modelSnapshot && (
+                <p className="model-note">
+                  Updated from {modelSnapshot.source} after{' '}
+                  {modelSnapshot.simulations?.toLocaleString() || 'unknown'} simulations.
+                </p>
+              )}
             </div>
 
             <label>
@@ -223,13 +274,13 @@ function App() {
               <select
                 value={selectedTeam.name}
                 onChange={(event) => {
-                  const team = teams.find((item) => item.name === event.target.value);
+                  const team = sortedTeams.find((item) => item.name === event.target.value);
                   if (team) setSelectedTeam(team);
                 }}
               >
                 {sortedTeams.map((team) => (
                   <option key={team.name} value={team.name}>
-                    {team.name} - {team.chance}% chance - {calculatePayout(team.chance)} pts
+                    {team.name} - {team.chance.toFixed(1)}% chance - {calculatePayout(team.chance)} pts
                   </option>
                 ))}
               </select>
@@ -266,7 +317,7 @@ function App() {
                   <small>{team.region} · {team.form}</small>
                 </span>
                 <span className="odds">
-                  {team.chance}%
+                  {team.chance.toFixed(1)}%
                   <small>{calculatePayout(team.chance)} pts</small>
                 </span>
               </button>

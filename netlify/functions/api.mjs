@@ -1,7 +1,9 @@
 import {
   getHealth,
+  getLatestModelSnapshot,
   getUserWithPick,
   loginUser,
+  publishModelSnapshot,
   savePick,
   settleWinner,
 } from '../../lib/predicta-api.mjs';
@@ -51,6 +53,16 @@ export async function handler(event) {
 
     if (method === 'POST' && apiPath === '/picks') {
       const result = await savePick(body);
+      return json(result.status, result.body);
+    }
+
+    if (method === 'GET' && apiPath === '/model/latest') {
+      const result = await getLatestModelSnapshot();
+      return json(result.status, result.body);
+    }
+
+    if (method === 'POST' && apiPath === '/model/snapshot') {
+      const result = await publishModelSnapshot(body);
       return json(result.status, result.body);
     }
 

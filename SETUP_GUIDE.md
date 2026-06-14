@@ -23,6 +23,7 @@ libsql://predicta26-your-org.turso.io
 TURSO_DATABASE_URL=libsql://predicta26-your-org.turso.io
 TURSO_AUTH_TOKEN=your_turso_auth_token
 ADMIN_SETTLE_CODE=choose-a-private-admin-code
+ADMIN_MODEL_CODE=choose-a-private-model-code
 ```
 
 Keep `TURSO_AUTH_TOKEN` private. It belongs on the server only, not in browser code.
@@ -92,6 +93,7 @@ Functions directory: netlify/functions
 TURSO_DATABASE_URL=libsql://predicta26-your-org.turso.io
 TURSO_AUTH_TOKEN=your_turso_auth_token
 ADMIN_SETTLE_CODE=choose-a-private-admin-code
+ADMIN_MODEL_CODE=choose-a-private-model-code
 ```
 
 8. Click **Deploy**.
@@ -102,4 +104,36 @@ Your hosted API will use the same routes as local development:
 https://your-site-name.netlify.app/api/login
 https://your-site-name.netlify.app/api/picks
 https://your-site-name.netlify.app/api/settle-winner
+```
+
+## 7. Connect The Python Model
+
+The model should keep getting live football data with its own `FOOTBALL_DATA_TOKEN`.
+After it runs the simulation, it publishes the latest probabilities into your Netlify app.
+
+Set these on the machine running the model:
+
+```bash
+PREDICTA_API_BASE_URL=https://your-site-name.netlify.app
+ADMIN_MODEL_CODE=choose-a-private-model-code
+MODEL_SIMULATIONS=20000
+FOOTBALL_DATA_TOKEN=your_football_data_token
+```
+
+Then run:
+
+```bash
+python model/publish_snapshot.py
+```
+
+The app will read the newest model data from:
+
+```bash
+https://your-site-name.netlify.app/api/model/latest
+```
+
+The model publishes to:
+
+```bash
+https://your-site-name.netlify.app/api/model/snapshot
 ```

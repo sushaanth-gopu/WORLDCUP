@@ -32,3 +32,23 @@ CREATE TABLE IF NOT EXISTS points_ledger (
   created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
   FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
+
+CREATE TABLE IF NOT EXISTS model_runs (
+  id TEXT PRIMARY KEY,
+  source TEXT NOT NULL,
+  simulations INTEGER,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS model_team_probabilities (
+  id TEXT PRIMARY KEY,
+  run_id TEXT NOT NULL,
+  team_name TEXT NOT NULL,
+  win_probability REAL NOT NULL,
+  final_probability REAL,
+  semi_probability REAL,
+  rating REAL,
+  projected_points INTEGER NOT NULL,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (run_id) REFERENCES model_runs(id) ON DELETE CASCADE
+);
