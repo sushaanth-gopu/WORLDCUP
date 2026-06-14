@@ -1,111 +1,93 @@
 import 'dotenv/config';
-import express from 'express';
-import path from 'node:path';
+import express   from 'express';
+import path      from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   getHealth,
   getLatestModelSnapshot,
   getUserWithPick,
+  initSchema,
   loginUser,
   publishModelSnapshot,
+  registerUser,
   savePick,
   settleWinner,
 } from './lib/predicta-api.mjs';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const port = Number(process.env.PORT || 5173);
+const __dirname  = path.dirname(fileURLToPath(import.meta.url));
+const port       = Number(process.env.PORT || 5173);
 const isProduction = process.env.NODE_ENV === 'production';
 
 const app = express();
 app.use(express.json());
 
-function sendApiResult(response, result) {
+function send(response, result) {
   response.status(result.status).json(result.body);
 }
 
-app.get('/api/health', async (_request, response, next) => {
+// ── Routes ────────────────────────────────────────────────────────────────────
+
+app.get('/api/health', async (_req, res, next) => {
+  try { res.json(await getHealth()); } catch (e) { next(e); }
+});
+
+app.post('/api/register', async (req, res, next) => {
+  try { send(res, await registerUser(req.body)); } catch (e) { next(e); }
+});
+
+app.post('/api/login', async (req, res, next) => {
+  try { send(res, await loginUser(req.body)); } catch (e) { next(e); }
+});
+
+app.get('/api/users/:id', async (req, res, next) => {
   try {
-    response.json(await getHealth());
-  } catch (error) {
-    next(error);
-  }
+    const user = await getUserWithPick(req.params.id);
+    if (!user) { res.status(404).json({ error: 'User not found.' }); return; }
+    res.json({ user });
+  } catch (e) { next(e); }
 });
 
-app.post('/api/login', async (request, response, next) => {
-  try {
-    sendApiResult(response, await loginUser(request.body));
-  } catch (error) {
-    next(error);
-  }
+app.post('/api/picks', async (req, res, next) => {
+  try { send(res, await savePick(req.body)); } catch (e) { next(e); }
 });
 
-app.get('/api/users/:id', async (request, response, next) => {
-  try {
-    const user = await getUserWithPick(request.params.id);
-
-    if (!user) {
-      response.status(404).json({ error: 'User not found.' });
-      return;
-    }
-
-    response.json({ user });
-  } catch (error) {
-    next(error);
-  }
+app.get('/api/model/latest', async (_req, res, next) => {
+  try { send(res, await getLatestModelSnapshot()); } catch (e) { next(e); }
 });
 
-app.post('/api/picks', async (request, response, next) => {
-  try {
-    sendApiResult(response, await savePick(request.body));
-  } catch (error) {
-    next(error);
-  }
+app.post('/api/model/snapshot', async (req, res, next) => {
+  try { send(res, await publishModelSnapshot(req.body)); } catch (e) { next(e); }
 });
 
-app.get('/api/model/latest', async (_request, response, next) => {
-  try {
-    sendApiResult(response, await getLatestModelSnapshot());
-  } catch (error) {
-    next(error);
-  }
+app.post('/api/settle-winner', async (req, res, next) => {
+  try { send(res, await settleWinner(req.body)); } catch (e) { next(e); }
 });
 
-app.post('/api/model/snapshot', async (request, response, next) => {
-  try {
-    sendApiResult(response, await publishModelSnapshot(request.body));
-  } catch (error) {
-    next(error);
-  }
+// ── Error handler ─────────────────────────────────────────────────────────────
+
+app.use((err, _req, res, _next) => {
+  console.error(err);
+  res.status(500).json({ error: err.message || 'Server error.' });
 });
 
-app.post('/api/settle-winner', async (request, response, next) => {
-  try {
-    sendApiResult(response, await settleWinner(request.body));
-  } catch (error) {
-    next(error);
-  }
-});
-
-app.use((error, _request, response, _next) => {
-  console.error(error);
-  response.status(500).json({ error: error.message || 'Server error.' });
-});
+// ── Static / Vite ─────────────────────────────────────────────────────────────
 
 if (isProduction) {
   app.use(express.static(path.join(__dirname, 'dist')));
-  app.get('*splat', (_request, response) => {
-    response.sendFile(path.join(__dirname, 'dist', 'index.html'));
+  app.get('*splat', (_req, res) => {
+    res.sendFile(path.join(__dirname, 'dist', 'index.html'));
   });
 } else {
   const { createServer } = await import('vite');
-  const vite = await createServer({
-    server: { middlewareMode: true },
-    appType: 'spa',
-  });
-
+  const vite = await createServer({ server: { middlewareMode: true }, appType: 'spa' });
   app.use(vite.middlewares);
 }
 
+// ── Boot ──────────────────────────────────────────────────────────────────────
+
+await initSchema();
+console.log('✓ Database schema ready');
+
 app.listen(port, () => {
-  console.log(`PREDICTA26 is running at http://localhost:${port}`);
+  console.log(`PREDICTA26 running at http://localhost:${port}`);
 });
